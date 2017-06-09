@@ -1,0 +1,17 @@
+<div class="people">
+  {% for person in {{include.people.people}} %}
+    {% if person.img %}
+    <li class="person">
+      <img class="img" style="background-image:url(/files/images/people/{{person.img}})"></img>
+      <div class="name">
+        <a href="{{person.url}}#">{{person.name}}</a>
+        <span>{{person.role}}</span>
+      </div>
+    {% else %}
+    {% endif %}
+  {% endfor %}
+
+</div>
+
+
+<link rel="stylesheet" type="text/css" href="{{ "/files/css/people.css" | relative_url }}" />

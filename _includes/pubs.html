@@ -1,0 +1,23 @@
+<div class="pubs">
+  <ol connect="rows">
+    {% for p in {{site.data.pubs}} %}
+      {% assign found = false %}
+      {% for tag in p.tags %}
+        {% if page.tags contains {{tag | strip}} %}
+          {% assign found = true %}
+        {% endif %}
+      {% endfor %}
+      {% if found %}
+        <li class="paper" data-selected="{{p.selected}}">
+          <a class="title" href="{{p.url}}">{{p.title}}</a>
+            <div class="authors">{{p.authors}}</div>
+            <span class="conf">{{{p.conf}}</span>
+            {% if p.code %}<a href="{{p.code}}">Code</a>{% endif %}
+            {% if p.slides %}<a href="{{p.slides}}">Slides</a>{% endif %}
+            {% if p.comments %}<span><b>{{p.comments}}</b></span>{% endif %}
+        </li>
+
+      {% endif %}
+    {% endfor %}
+  </ol>
+</div>

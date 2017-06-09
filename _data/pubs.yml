@@ -1,0 +1,366 @@
+# The following are required
+#
+# - authors: eugene wu, super man
+#   conf: SIGMOD 2016
+#   tags:
+#   - vis
+#   title: Title of the paper
+#   url: url to the paper
+#
+# The following are optional
+#
+#   slides: URL to slides
+#   code: URL to code/github
+#   comments: any comments
+#
+# Main tags are
+#
+#   crowd, vis, ml, dbexplain, mlexplain, db, clean
+#
+# Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
+#
+- authors: Hamed Nilforoshan, Jiannan Wang, Eugene Wu
+  conf: Arxiv 2017
+  selected: true
+  tags:
+  - crowd
+  title: 'PreCog: Improving Crowdsourced Data Quality Before Acquisition'
+  url: https://arxiv.org/abs/1704.02384
+- authors: Haoci Zhang, Thibault Sellam, Eugene Wu
+  conf: HILDA 2017
+  selected: true
+  tags:
+  - vis
+  - pi
+  title: Precision Interfaces
+  url: https://arxiv.org/abs/1704.03022
+- authors: Sanjay Krishnan, Eugene Wu
+  url: https://www.dropbox.com/s/x8g0zljv7bmfpuo/palm-hilda17.pdf?dl=0
+  conf: HILDA 2017
+  selected: true
+  tags:
+  - ml
+  - mlexplain
+  title: 'PALM: Machine Learning Explanations For Iterative Debugging'
+- authors: Hamed Nilforoshan, James Sands, Kevin Lin, Rahul Khanna, Eugene Wu
+  conf: Collective Intelligence 2017
+  selected: true
+  tags:
+  - ml
+  - crowd
+  title: Segment-Predict-Explain for Automatic Writing Feedback
+  url: https://www.dropbox.com/s/52knots6len7ykt/dialectic-ci17.pdf?dl=0
+- authors: Hamed Nilforoshan, James Sands, Kevin Lin, Rahul Khanna, Eugene Wu
+  conf: ArXiv 2017
+  tags:
+  - crowd
+  title: 'Dialectic: Enhancing Text Input Fields with Automatic Feedback to Improve
+    Social Content Writing Quality'
+  url: https://arxiv.org/abs/1701.06718
+- authors: Liwen Sun, Michael J. Franklin, Jiannan Wang, Eugene Wu
+  conf: VLDB 2017
+  selected: true
+  tags:
+  - db
+  title: Skipping-oriented Partitioning for Columnar Layouts
+  url: https://www.dropbox.com/s/zsxuq955s466o70/skipping-vldb2017.pdf?dl=0
+- authors: Eugene Wu, Fotis Psallidas, Zhengjie Miao, Haoci Zhang,Laura Rettig, Yifan
+    Wu, Thibault Sellam
+  conf: CIDR 2017
+  selected: true
+  tags:
+  - vis
+  title: Combining Design and Performance in a Data Visualization Management System
+  url: https://www.dropbox.com/s/0rdjsv7m7wbhmlk/cidr17-camera.pdf?dl=0
+- authors: Eugene Wu
+  conf: CIDR 2017 Abstract
+  tags:
+  - misc
+  title: 'CIDR: Chat-oriented Innovations in Database Research'
+  url: https://www.dropbox.com/s/yeojaciedsktp77/cidr17abstract.pdf?dl=0
+- authors: Xiaolan Wang, Alexandra Meliou, Eugene Wu
+  conf: SIGMOD 2017
+  selected: true
+  tags:
+  - dbexplain
+  title: 'QFix: Diagnosing errors through query histories'
+  url: http://sirrice.github.io/files/papers/qfix-sigmod17.pdf
+- authors: Yifan Wu, Joe Hellerstein, Eugene Wu
+  conf: Hilda 2016
+  tags:
+  - vis
+  title: A DeVIL-ish Approach to Inconsistency in Interactive Visualizations
+  url: http://sirrice.github.io/files/papers/devil-hilda16.pdf
+- authors: Daniel Alabi, Eugene Wu
+  conf: Hilda 2016
+  selected: true
+  tags:
+  - vis
+  title: 'PFunk-H: Approximate Query Processing using Perceptual Models'
+  url: http://sirrice.github.io/files/papers/pfunk-hilda16.pdf
+- authors: Sanjay Krishnan, Daniel Haas, Michael J. Franklin, Eugene Wu
+  conf: Hilda 2016
+  selected: true
+  tags:
+  - clean
+  title: 'Towards Reliable Interactive Data Cleaning: A User Survey and Recommendations'
+  url: http://sirrice.github.io/files/papers/cleaning-hilda16.pdf
+- authors: Niranjan Kamat, Eugene Wu, Arnab Nandi
+  conf: Hilda 2016
+  tags:
+  - vis
+  title: 'TrendQuery: A System for Interactive Exploration of Trends'
+  url: https://www.dropbox.com/s/ymi6na9s6qtz0fw/trendquery-hilda16.pdf?dl=0
+- authors: Sanjay Krishnan, Michael Franklin, Ken Goldberg, Jiannan Wang, Eugene Wu
+  comments: (Demo Award Winner!)
+  conf: SIGMOD 2016 Demo
+  tags:
+  - clean
+  title: 'ActiveClean: An Interactive Data Cleaning Framework For Modern Machine Learning'
+  url: http://eugenewu.net/files/papers/activeclean-sigmod16demo.pdf
+- authors: Eugene Wu, Lilong Jiang, Larry Xu, Arnab Nandi
+  conf: Arxiv 2016
+  tags:
+  - vis
+  title: Graphical Perception in Animated Bar Charts
+  url: http://arxiv.org/pdf/1604.00080v1
+- authors: Xiaolan Wang, Alexandra Meliou, Eugene Wu
+  conf: SIGMOD 2016 Demo
+  tags:
+  - dbexplain
+  title: 'QFix: Demonstrating error diagnosis in query histories'
+  url: http://sirrice.github.io/files/papers/qfix-sigmod16.pdf
+- authors: Xiaolan Wang, Alexandra Meliou, Eugene Wu
+  conf: Arxiv 2016
+  tags:
+  - dbexplain
+  title: 'QFix: Diagnosing errors through query histories'
+  url: http://arxiv.org/abs/1601.07539
+- authors: Sanjay Krishnan, Jiannan Wang, Eugene Wu, Michael J. Franklin, Ken Goldberg
+  conf: Arxiv 2016
+  selected: true
+  tags:
+  - clean
+  title: 'ActiveClean: Interactive Data Cleaning While Learning Convex Loss Models'
+  url: http://arxiv.org/pdf/1601.03797v1
+- authors: Eugene Wu, Arnab Nandi
+  conf: <a href="http://www.interactive-analysis.org/">DSIA</a> 2015
+  selected: true
+  slides: http://www.eugenewu.net/files/talks/perceptvis_dsia2015.pdf
+  tags:
+  - vis
+  title: Towards Perception-aware Interactive Data Visualization Systems
+  url: http://perceptvis.github.io/wu_nandi_dsia15.pdf
+- authors: Sanjay Krishnan, Jiannan Wang, Michael J Franklin, Ken Goldberg, Tim Kraska,
+    Tova Milo, Eugene Wu
+  tags:
+  - clean
+  title: 'SampleClean: Fast and Reliable Analytics on Dirty Data (overview paper)'
+  url: http://sirrice.github.io/files/papers/sampleclean-overview.pdf
+- authors: Daniel Haas, Jiannan Wang, Eugene Wu, Michael J. Franklin
+  conf: VLDB 2016
+  selected: true
+  tags:
+  - crowd
+  title: 'CLAMShell: Speeding up Crowds for Low-latency Data Labeling'
+  url: http://arxiv.org/pdf/1509.05969.pdf
+- authors: Arka A. Bhattacharya, Dezhi Hong, David Culler, Jorge Ortiz, Kamin Whitehouse,
+    Eugene Wu
+  conf: BuildSys 2015
+  tags:
+  - misc
+  title: Automated Metadata Construction to Support Portable Building Applications
+  url: http://sirrice.github.io/files/papers/arka-buildsys2015.pdf
+- authors: Daniel Haas, Sanjay Krishnan, Jiannan Wang, Michael J. Franklin, Eugene
+    Wu
+  conf: VLDB 2015
+  tags:
+  - crowd
+  title: 'Wisteria: Nurturing Scalable Data Cleaning Infrastructure (Demo)'
+  url: http://sirrice.github.io/files/papers/wisteria.pdf
+- authors: Anant Bhardwaj, Amol Deshpande, Aaron Elmore, David Karger, Sam Madden,
+    Aditya Parameswaran, Harihar Subramanyam, Eugene Wu, and Rebecca Zhang
+  conf: VLDB 2015
+  tags:
+  - misc
+  title: Collaborative Data Analytics with Datahub (Demo)
+  url: http://sirrice.github.io/files/papers/datahubdemo.pdf
+- authors: Leilani Battle, Edward Benson, Aditya Parameswaran, Eugene Wu
+  conf: Technical Report 
+  tags:
+  - ml
+  title: Indexing Cost Sensitive Prediction
+  url: http://sirrice.github.io/files/papers/csp-techreport.pdf
+- authors: Eugene Wu
+  conf: Doctoral Thesis
+  selected: true
+  tags:
+  - thesis
+  title: Explaining Data in Visual Analytic Systems
+  url: http://sirrice.github.io/files/papers/thesis.pdf
+- authors: Eugene Wu, Leilani Battle, Samuel Madden
+  conf: VLDB 2014
+  selected: true
+  tags:
+  - vis
+  title: The Case for Data Visualization Management Systems
+  url: http://sirrice.github.io/files/papers/ermac-vldb14.pdf
+- authors: Eugene Wu, Adam Marcus and Sam Madden
+  conf: DBCrowd 2013
+  tags:
+  - misc
+  title: 'Data In Context: Aiding News Consumers while Taming Dataspaces'
+  url: http://sirrice.github.io/files/papers/dataincontext.pdf
+- authors: Alvin Cheung, Lenin Ravindranath, Eugene Wu, Samuel Madden, Hari Balakrishnan
+  conf: APSYS 2013
+  tags:
+  - misc
+  title: Mobile applications need Targeted Micro-updates
+  url: http://sirrice.github.io/files/papers/apsys13.pdf
+- authors: Eugene Wu, Samuel Madden
+  conf: VLDB 2013 (Selected as one of the best papers of the conference!)
+  selected: true
+  slides: http://sirrice.github.io/files/talks/scorpion_vldb13.pdf
+  tags:
+  - dbexplain
+  - vis
+  title: 'Scorpion: Explaining Away Outliers in Aggregate Queries'
+  url: http://sirrice.github.io/files/papers/scorpion-vldb13.pdf
+- authors: Eugene Wu, Samuel Madden, Michael Stonebraker
+  conf: ICDE 2013 (Best of conference)
+  selected: true
+  tags:
+  - db
+  - vis
+  title: 'SubZero: a Fine-Grained Lineage System for Scientific Databases'
+  url: http://sirrice.github.io/files/papers/subzero-icde13.pdf
+- authors: Eugene Wu, Samuel Madden, Michael Stonebraker
+  conf: VLDB 2012
+  tags:
+  - clean
+  - vis
+  title: 'A Demonstration of DBWipes: Clean as You Query'
+  url: http://sirrice.github.io/files/papers/dbwipes-vldb2012.pdf
+- authors: Adam Marcus, Eugene Wu, David Karger, Samuel Madden, Robert Miller
+  conf: VLDB 2012
+  selected: true
+  tags:
+  - crowd
+  title: Human-powered Sorts and Joins
+  url: http://sirrice.github.io/files/papers/qurk-vldb2012.pdf
+- authors: Eugene Wu, Sam Madden
+  conf: ICDE 2011
+  tags:
+  - db
+  title: Partitioning Techniques for Fine-Grained Indexing
+  url: http://sirrice.github.io/files/papers/shinobi-icde11.pdf
+- authors: Adam Marcus, Eugene Wu, David Karger, Samuel Madden, Robert Miller
+  conf: SIGMOD 2011
+  tags:
+  - crowd
+  title: 'Demonstration of Qurk: A Query Processor for Human Operators'
+  url: http://sirrice.github.io/files/papers/qurk-sigmod2011.pdf
+- authors: Eugene Wu, Carlo Curino, Sam Madden
+  conf: CIDR 2011
+  selected: true
+  tags:
+  - db
+  title: No Bits Left Behind
+  url: http://sirrice.github.io/files/papers/bits-cidr11.pdf
+- authors: Adam Marcus, Eugene Wu, Sam Madden, Robert Miller
+  conf: CIDR 2011
+  selected: true
+  tags:
+  - crowd
+  title: 'Crowdsourced Databases: Query Processing with People'
+  url: http://sirrice.github.io/files/papers/qurk-cidr11.pdf
+- authors: Carlo Curino, Evan Jones, Raluca Popa, Nirmesh Malviya, Eugene Wu, Sam
+    Madden, Hari Balakrishnan, Nickolai Zeldovich
+  conf: CIDR 2011
+  selected: true
+  tags:
+  - db
+  title: 'Relational Cloud: A Database-as-a-Service for the Cloud'
+  url: http://sirrice.github.io/files/papers/relcloud-cidr11.pdf
+- authors: Carlo Curino, Evan Jones, Yang Zhang, Eugene Wu, Sam Madden
+  tags:
+  - db
+  title: 'Relational Cloud: The Case for a Database Service'
+  url: http://sirrice.github.io/files/papers/caseforrelationalcloud.pdf
+- authors: Philippe Cudre-Mauroux, Eugene Wu, Sam Madden
+  conf: ICDE 2010
+  tags:
+  - db
+  title: 'TrajStore: An Adaptive Storage System for Very Large Trajectory Data Sets'
+  url: http://sirrice.github.io/files/papers/trajstore-icde10.pdf
+- authors: Eugene Wu, Philippe Cudre-Mauroux, Sam Madden
+  conf: VLDB 2009
+  tags:
+  - db
+  title: Demonstration of the TrajStore System
+  url: http://sirrice.github.io/files/papers/trajstore-vldb09demo.pdf
+- authors: Philippe Cudre-Mauroux, Eugene Wu, Sam Madden
+  conf: CIDR 2009
+  tags:
+  - db
+  title: 'The Case for RodentStore: An Adaptive, Declarative Storage System'
+  url: http://www-db.cs.wisc.edu/cidr/cidr2009/Paper_97.pdf
+- authors: Michael Cafarella, Alon Halevy, Daisy Wang, Eugene Wu, Yang Zhang
+  conf: VLDB 2008
+  tags:
+  - db
+  - web
+  title: 'WebTables: Exploring the Power of Tables on the Web'
+  url: http://sirrice.github.io/files/papers/webtables-vldb08.pdf
+- authors: Michael Cafarella, Nodira Khoussainova, Daisy Wang, Eugene Wu, Yang Zhang,
+    Alon Halevy
+  conf: WebDB 2008
+  tags:
+  - db
+  - web
+  title: Uncovering the Relational Web
+  url: http://sirrice.github.io/files/papers/relweb-webdb08.pdf
+- authors: Daniel Gyllstrom, Eugene Wu, Hee-Jin Chae, Yanlei Diao, Patrick Stahlberg,
+    Gordon Anderson
+  conf: CIDR 2007
+  tags:
+  - db
+  title: 'SASE: Complex Event Processing over Streams (Demo)'
+  url: '#'
+- authors: Eugene Wu, Yanlei Diao, Shariq Rizvi
+  conf: SIGMOD 2006
+  selected: true
+  tags:
+  - db
+  title: High-performance complex event processing over streams
+  url: http://sirrice.github.io/files/papers/sase-sigmod06.pdf
+- authors: Daniel Gyllstrom, Eugene Wu, Hee-Jin Chae, Yanlei Diao, Patrick Stahlberg,
+    Gordon Anderson
+  conf: CoRR 2006
+  tags:
+  - db
+  title: 'SASE: Complex Event Processing over Streams'
+  url: '#'
+- authors: Minos N. Garofalakis, Kurt P. Brown, Michael J. Franklin, Joseph M. Hellerstein,
+    Daisy Zhe Wang, Eirinaios Michelakis, Liviu Tancau, Eugene Wu, Shawn R. Jeffery,
+    Ryan Aipperspach
+  conf: IEEE Data Eng. Bull.
+  tags:
+  - db
+  title: 'Probabilistic Data Management for Pervasive Computing: The Data Furnace
+    Project'
+  url: '#'
+- authors: Michael J. Franklin, Shawn R. Jeffery, Sailesh Krishnamurthy, Frederick
+    Reiss, Shariq Rizvi, Eugene Wu, Owen Cooper, Anil Edakkunni, Wei Hong
+  conf: CIDR 2005
+  tags:
+  - db
+  title: 'Design Considerations for High Fan-In Systems: The HiFi Approach'
+  url: http://sirrice.github.io/files/papers/
+- authors: Owen Cooper, Anil Edakkunni, Michael J. Franklin, Wei Hong, Shawn R. Jeffery,
+    Sailesh Krishnamurthy, Frederick Reiss, Shariq Rizvi, Eugene Wu
+  conf: VLDB 2004 Demo
+  tags:
+  - db
+  title: 'HiFi: A Unified Architecture for High Fan-in Systems'
+  url: '#'

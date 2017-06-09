@@ -1,0 +1,80 @@
+<html>
+   <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>{{title}}</title>
+  </head>
+<body>
+
+{% capture name %}WuLab{% endcapture %}
+
+{% capture goals %}
+The future of industry relies on the ability to make data-driven decisions, however it is only accessible to technical and statistical experts that can program, clean and combine data, visualize large datasets, and  debug complex analysis pipelines.
+
+The goal of the {{name}} is to dramatically accelerate the democratization of data, and to train high quality, world-class researchers.
+{% endcapture %}
+
+
+
+{% capture join %}
+We are always looking for hard-working, smart, driven students that are excited pushing forward how humans interact with data.   If you are a prospective graduate student or postdoc, [read our application document](apply.html).  If you are an undergraduate, masters, or potential intern, [please fill out our questionnaire](foo.html).
+{% endcapture %}
+
+{% capture contact %}
+Email us at ewu@cs.columbia.edu
+{% endcapture %}
+
+
+<div class="row header" >
+  <div class="col-md-2 offset-md-1 stitle">
+    <img src="/files/images/people/noimage.png" width=100/>
+  </div>
+  <div class="col-md-7">
+    <h1>{{name}}<br/>Columbia University</h1>
+  </div>
+</div>
+
+<div class="row body" >
+  <div class="col-md-2 offset-md-1 stitle">goals</div>
+  <div class="col-md-7">{{ goals | markdownify }}</div>
+</div>
+
+<div class="row body" >
+  <div class="col-md-2 offset-md-1 stitle">projects</div>
+  <div class="col-md-7">{{ content | markdownify }}</div>
+</div>
+
+
+
+<div class="row body" >
+  <div class="col-md-2 offset-md-1 stitle">join</div>
+  <div class="col-md-7">{{ join | markdownify }}</div>
+</div>
+
+<div class="row body" >
+  <div class="col-md-2 offset-md-1 stitle">contact</div>
+  <div class="col-md-7">{{ contact | markdownify }}</div>
+</div>
+
+
+<div class="row body" >
+  <div class="col-md-2 offset-md-1 stitle">people</div>
+  <div class="col-md-8">
+   {% include people.html people=site.data.people %}
+  </div>
+</div>
+
+</body>
+
+
+<link rel="stylesheet" type="text/css" href="{{ "/files/css/bootstrap.min.css" | relative_url }}" />
+<link rel="stylesheet" type="text/css" href="{{ "/files/css/style.css" | relative_url }}" />
+<script src="{{ "/files/js/jquery.js" | relative_url }}"></script>
+<script src="{{ "/files/js/handlebars.js" | relative_url }}"></script>
+<script src="{{ "/files/js/underscore.js" | relative_url }}"></script>
+<script src="{{ "/files/js/bootstrap.min.js" | relative_url }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.13/webcomponents-lite.min.js"></script> 
+
+<script>
+</script>
+

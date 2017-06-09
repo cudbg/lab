@@ -1,0 +1,30 @@
+#
+# Add an item for yourself in this list, or replace one of the Eugene Wus
+# The image file should be 
+#   * square, 
+#   * at least 200x200px and 
+#   * placed in /files/images/people/
+# Set alum to 1 if have graduated
+#
+people:
+  - img: eugenewu.png
+    name: Eugene Wu 
+    role: PI
+    url: http://www.eugenewu.net
+  - img: noimage.png
+    name: Fotis Psallidas
+    role: Grad Student
+  - img: noimage.png
+    name: Thibault Sellam
+    role: Postdoc
+  - img: noimage.png
+    name: Person
+    role: Undergrad
+  - img: noimage.png
+    name: Your Name
+    role: Undergrad
+  - img: noimage.png
+    name: Foo Bar
+    role: Undergrad
+    alum: 1
+
