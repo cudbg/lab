@@ -2,7 +2,7 @@
   {% for person in {{include.people.people}} %}
     {% if person.img %}
     <li class="person">
-      <img class="img" style="background-image:url(/files/images/people/{{person.img}})"></img>
+      <img class="img" style="background-image:url(./files/images/people/{{ person.img }})"></img>
       <div class="name">
         <a href="{{person.url}}#">{{person.name}}</a>
         <span>{{person.role}}</span>
