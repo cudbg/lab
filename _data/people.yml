@@ -11,9 +11,10 @@ people:
     name: Eugene Wu 
     role: PI
     url: http://www.eugenewu.net
-  - img: noimage.png
+  - img: psfotis.jpg
     name: Fotis Psallidas
     role: Grad Student
+    url: http://www.cs.columbia.edu/~fotis/
   - img: noimage.png
     name: Thibault Sellam
     role: Postdoc
