@@ -21,11 +21,12 @@ people:
   - img: conder.jpg
     name: Conder Shou
     role: Undergrad
-  - img: noimage.png
+  - img: salim.jpg
     name: Salim M'jahad
     role: Undergrad
-  - img: noimage.png
-    name: Foo Bar
+  - img: robbie.jpg
+    name: Robbie Netzorg
     role: Undergrad
-    alum: 1
-
+  - img: lily.jpg
+    name: Lily-Xiaoxuan Liu
+    role: Intern
