@@ -104,14 +104,23 @@ li {
 
 
 @media  (max-width:991px) {
+  html, body {
+    font-size: 14pt;
+  }
+  h1 {
+    font-size: 22pt;
+  }
   h4 {
     margin-top: 2em;
-    font-size: 14pt;
+    font-size: 20pt;
+  }
+  .logo {
+    display: none;
   }
   .stitle {
     text-align: left;
-  }
-  .header div {
+    margin-bottom: .5em;
+    font-size: 20pt;
   }
 }
 
