@@ -2,12 +2,13 @@
 layout: project
 color: "#44bf6d"
 logo: DVMS
-tagline: Data Visualization Management System<br/>rethinking data-driven interactive visualization 
+tagline: Data Visualization<br/> Management System
 # Tags is a comma separated list of the publication tags in _data/pubs.yml
 tags: vis
 ---
 
 <div class="callout">
+Rethinking data-driven interactive visualization 
 </div>
 
 
