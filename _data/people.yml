@@ -30,6 +30,10 @@ people:
   - img: kevin.jpg
     name: Kevin Lin
     role: Undergrad
+  - img: hamed.jpg
+    name: Hamed Nilforoshan
+    role: Undergrad
+    url: http://hamedn.com/
   - img: lily.jpg
     name: Lily-Xiaoxuan Liu
     role: Intern
