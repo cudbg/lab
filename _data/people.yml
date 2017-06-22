@@ -21,12 +21,15 @@ current:
     url: http://sellam.me/
   - name: Xiaolan Wang
     url: https://people.cs.umass.edu/~xlwang/
+    img: xiaolan.jpg
     role: Collab (UMass)
   - name: Yifan Wu
     url: http://www.cs.berkeley.edu/~yifanwu/
+    img: yifan.jpg
     role: Collab (Cal)
   - name: Sanjay Krishnan
     url: https://www.ocf.berkeley.edu/~sanjayk/
+    img: sanjay.jpg
     role: Collab (Cal)
   - name: Tejas Dharamsi
     role: Masters
@@ -56,6 +59,7 @@ current:
 alum:
   - name: Daniel Haas
     url: http://www.cs.berkeley.edu/~dhaas/
+    img: dhaas.jpg
     role: Collab (Cal)
     alum: 1
   - name: Lilong Jiang
@@ -63,12 +67,14 @@ alum:
     role: Collab (OSU)
   - name: Daniel Alabi
     url: http://alabidan.me/
+    img: danielalabi.jpeg
     role: Masters
   - name: Zhengjie Miao
     role: Masters
   - name: Sharan Suryanarayanan
     role: Masters
   - name: Larry Xu
+    img: larryxu.jpg
     role: Undergrad
     url: https://www.larryxu.com/
   - name: James Sands
