@@ -6,7 +6,7 @@
 #   * placed in /files/images/people/
 # Set alum to 1 if have graduated
 #
-people:
+current:
   - img: eugenewu.png
     name: Eugene Wu 
     role: PI
@@ -19,6 +19,17 @@ people:
     name: Thibault Sellam
     role: Postdoc
     url: http://sellam.me/
+  - name: Xiaolan Wang
+    url: https://people.cs.umass.edu/~xlwang/
+    role: Collab (UMass)
+  - name: Yifan Wu
+    url: http://www.cs.berkeley.edu/~yifanwu/
+    role: Collab (Cal)
+  - name: Sanjay Krishnan
+    url: https://www.ocf.berkeley.edu/~sanjayk/
+    role: Collab (Cal)
+  - name: Tejas Dharamsi
+    role: Masters
   - img: conder.jpg
     name: Conder Shou
     role: Undergrad
@@ -38,3 +49,32 @@ people:
   - img: lily.jpg
     name: Lily-Xiaoxuan Liu
     role: Intern
+  - name: HaoCi Zhang
+    img: haoci.jpg
+    url: http://www.zhanghaoci.com/
+    role: Intern
+alum:
+  - name: Daniel Haas
+    url: http://www.cs.berkeley.edu/~dhaas/
+    role: Collab (Cal)
+    alum: 1
+  - name: Lilong Jiang
+    url: http://web.cse.ohio-state.edu/~jianglil/
+    role: Collab (OSU)
+  - name: Daniel Alabi
+    url: http://alabidan.me/
+    role: Masters
+  - name: Zhengjie Miao
+    role: Masters
+  - name: Sharan Suryanarayanan
+    role: Masters
+  - name: Larry Xu
+    role: Undergrad
+    url: https://www.larryxu.com/
+  - name: James Sands
+    role: Undergrad
+  - name: Naina Sahrawat
+    role: Undergrad
+  - name: Rahul Khanna
+    role: Undergrad
+
