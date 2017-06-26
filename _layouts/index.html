@@ -2,7 +2,7 @@
    <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
-    <title>{{title}}</title>
+    <title>WuLab at Columbia</title>
   </head>
 <body>
 
@@ -59,21 +59,26 @@ Email us at ewu@cs.columbia.edu
 
 <div class="row body" >
   <div class="col-md-2 offset-md-2 stitle">people</div>
-  <div class="col-md-8">
-   {% include people.html people=site.data.people %}
+  <div class="col-md-7">
+    {% include people.html people=site.data.people.current %}
+    <strong>Alumni and Past Collaborators</strong>
+    {% include people.html people=site.data.people.alum %}
   </div>
 </div>
 
 </body>
 
 
+<link rel="stylesheet" type="text/css" href="{{ "./files/css/bootstrap.min.css" | relative_url }}" />
+<link rel="stylesheet" type="text/css" href="{{ "./files/css/style.css" | relative_url }}" />
+<link rel="stylesheet" type="text/css" href="{{ "./files/css/fonts.css" | relative_url }}" />
+
 <script src="{{ "./files/js/jquery.js" | relative_url }}"></script>
 <script src="{{ "./files/js/handlebars.js" | relative_url }}"></script>
 <script src="{{ "./files/js/underscore.js" | relative_url }}"></script>
 <script src="{{ "./files/js/bootstrap.min.js" | relative_url }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.13/webcomponents-lite.min.js"></script> 
-<link rel="stylesheet" type="text/css" href="{{ "./files/css/bootstrap.min.css" | relative_url }}" />
-<link rel="stylesheet" type="text/css" href="{{ "./files/css/style.css" | relative_url }}" />
+
 
 <script>
 </script>

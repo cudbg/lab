@@ -2,11 +2,15 @@
   list-style-position:outside;
   list-style-type: none;
   font-family: 'Open Sans';
+  padding: 0px;
+  margin-bottom: 2ex;
 }
-.people li.person {
+.people span.person {
   float: left;
   width: 150px;
   margin: 5px;
+  margin-left: 0px;
+  margin-right: 10px;
   position: relative;
 }
 .people .img {
@@ -16,7 +20,7 @@
   background-size: cover;
 }
 
-li.person .name {
+span.person .namebox {
   position: absolute;
   bottom: 0px;
   padding-top: 50%;
@@ -24,28 +28,29 @@ li.person .name {
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   width: 100%;
   opacity: 0;
+  font-size: 10px;
 }
-li.person .name a {
+span.person .namebox .name {
   font-size: 13px;
   color: white;
   margin-left: 10px;
   opacity: 0;
   font-weight: 700;
 }
-li.person span {
+span.person span {
   display: block;
   text-transform: uppercase;
   padding-left: 10px;
   margin-bottom: 5px;
   opacity: 0;
 }
-li.person:hover .name {
+span.person:hover .namebox {
   -webkit-transition: opacity 0.2s;
   opacity: 1;
   background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 100%);
 }
 
-li.person:hover .name a, li.person:hover span {
+span.person:hover .namebox .name, span.person:hover span {
   opacity: 1;
   text-decoration: none;
 }

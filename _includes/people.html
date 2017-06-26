@@ -1,17 +1,21 @@
 <div class="people">
-  {% for person in {{include.people.people}} %}
-    {% if person.img %}
-    <li class="person">
-      <img class="img" style="background-image:url(./files/images/people/{{ person.img }})"></img>
-      <div class="name">
-        <a href="{{person.url}}#">{{person.name}}</a>
+  {% for person in {{include.people}} %}
+    {% assign img = {{person.img}} %}
+    {% if img == nil %} {% assign img = "noimage.png" %} {% endif %}
+
+    <span class="person">
+      <img class="img" style="background-image:url(./files/images/people/{{ img }})"></img>
+      <div class="namebox">
+        {% if person.url %}
+          <a class="name" href="{{person.url}}#">{{person.name}}</a>
+        {% else %}
+          <div class="name">{{person.name}}</div>
+        {% endif %}
         <span>{{person.role}}</span>
       </div>
-    {% else %}
-    {% endif %}
+    </span>
   {% endfor %}
-
+  <div class="clear" style="clear:both"/>
 </div>
-
 
 <link rel="stylesheet" type="text/css" href="{{ "/files/css/people.css" | relative_url }}" />

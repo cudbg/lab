@@ -6,7 +6,7 @@
 #   * placed in /files/images/people/
 # Set alum to 1 if have graduated
 #
-people:
+current:
   - img: eugenewu.png
     name: Eugene Wu 
     role: PI
@@ -15,9 +15,26 @@ people:
     name: Fotis Psallidas
     role: Grad Student
     url: http://www.cs.columbia.edu/~fotis/
-  - img: noimage.png
+  - img: t-bone.jpg
     name: Thibault Sellam
     role: Postdoc
+    url: http://sellam.me/
+  - name: Xiaolan Wang
+    url: https://people.cs.umass.edu/~xlwang/
+    img: xiaolan.jpg
+    role: Collab (UMass)
+  - name: Yifan Wu
+    url: http://www.cs.berkeley.edu/~yifanwu/
+    img: yifan.jpg
+    role: Collab (Cal)
+  - name: Sanjay Krishnan
+    url: https://www.ocf.berkeley.edu/~sanjayk/
+    img: sanjay.jpg
+    role: Collab (Cal)
+  - name: Tejas Dharamsi
+    url: https://www.linkedin.com/in/tejasdharamsi
+    img: tejasdharamsi.jpg
+    role: Masters
   - img: conder.jpg
     name: Conder Shou
     role: Undergrad
@@ -30,6 +47,48 @@ people:
   - img: kevin.jpg
     name: Kevin Lin
     role: Undergrad
+  - img: hamed.png
+    name: Hamed Nilforoshan
+    role: Undergrad
+    url: http://hamedn.com/
   - img: lily.jpg
     name: Lily-Xiaoxuan Liu
     role: Intern
+  - name: HaoCi Zhang
+    img: haoci.jpg
+    url: http://www.zhanghaoci.com/
+    role: Intern
+alum:
+  - name: Daniel Haas
+    url: http://www.cs.berkeley.edu/~dhaas/
+    img: dhaas.jpg
+    role: Collab (Cal)
+    alum: 1
+  - name: Lilong Jiang
+    url: http://web.cse.ohio-state.edu/~jianglil/
+    role: Collab (OSU)
+  - name: Daniel Alabi
+    url: http://alabidan.me/
+    img: danielalabi.jpeg
+    role: Masters
+  - name: Zhengjie Miao
+    img: zhengjie.jpg
+    url: http://www.miaozhengjie.com/
+    role: Masters
+  - name: Sharan Suryanarayanan
+    url: https://www.linkedin.com/in/sharansuryanarayanan
+    img: sharan.jpg
+    role: Masters
+  - name: Larry Xu
+    img: larryxu.jpg
+    role: Undergrad
+    url: https://www.larryxu.com/
+  - name: James Sands
+    role: Undergrad
+  - name: Naina Sahrawat
+    role: Undergrad
+  - name: Rahul Khanna
+    img: rahulkhanna.jpg
+    url: https://www.linkedin.com/in/rahul-khanna-1b97317a
+    role: Undergrad
+
