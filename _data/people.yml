@@ -58,6 +58,12 @@ current:
     img: haoci.jpg
     url: http://www.zhanghaoci.com/
     role: Intern
+  - name: Mengyang Lyu
+    role: Intern
+  - name: Ziyun Wei
+    role: Intern
+  - name: Alex Studer
+    role: High School
 alum:
   - name: Daniel Haas
     url: http://www.cs.berkeley.edu/~dhaas/
