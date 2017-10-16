@@ -19,6 +19,23 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- authors: Marianne Procopio, Carlos Scheidegger, Eugene Wu, Remco Chang
+  title: 'Load-n-Go: Fast Approximate Join Visualizations That Improve Over Time'
+  conf: DSIA 2017
+  selected: true
+  tags:
+  - vis
+- authors: Gabriel Ryan, Abigail Mosca, Eugene Wu, Remco Chang
+  title: 'Approximate Entropy as a Measure of Line Chart Complexity'
+  conf: InfoVIS Poster 2017
+  selected: true
+  tags:
+  - vis
+- title: 'Towards a Bayesian Model of Data Visualization Cognition'
+  authors: Yifan Wu, Larry Xu, Remco Chang, Eugene Wu
+  conf: DECISIVE 2017
+  tags:
+  - vis
 - authors: Hamed Nilforoshan, Jiannan Wang, Eugene Wu
   conf: Arxiv 2017
   selected: true
