@@ -4,6 +4,8 @@ layout: index
 
 Our research focuses on three areas that are critical bottlenecks to the future of data analysis: data cleaning, creating interactive data exploration and visualization interfaces, and understanding analysis results.  The following describes several of our main projects in these areas.
 
+[These slides](https://www.dropbox.com/s/yauhvxdkv0kna7h/2017-10-midwest-6pp.pdf?dl=0) describe our lab's vision and a select few of our current projects.
+
 **Data Cleaning**
 Data analysis and machine learning are increasingly reliant on the quality of the input data---spurious errors and systematic corruptions can result in misleading and incorrect results.  We work on [automated data cleaning algorithms](https://activeclean.github.io/) that are tailored towards data science applications, as well as [crowdsourcing systems](./crowdsourcing) for collecting high-quality new data.
 
