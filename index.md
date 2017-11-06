@@ -6,6 +6,8 @@ Our research focuses on three areas that are critical bottlenecks to the future 
 
 [These slides](https://www.dropbox.com/s/yauhvxdkv0kna7h/2017-10-midwest-6pp.pdf?dl=0) describe our lab's vision and a select few of our current projects.
 
+Several of our systems are [named after Mortal Kombat ninjas](http://eugenewu.net/ninjas.html)
+
 **Data Cleaning**
 Data analysis and machine learning are increasingly reliant on the quality of the input data---spurious errors and systematic corruptions can result in misleading and incorrect results.  We work on [automated data cleaning algorithms](https://activeclean.github.io/) that are tailored towards data science applications, as well as [crowdsourcing systems](./crowdsourcing) for collecting high-quality new data.
 
