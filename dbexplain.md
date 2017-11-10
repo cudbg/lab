@@ -1,6 +1,6 @@
 ---
 layout: project
-color: "#f77d49"
+color: "#de24c7"
 logo: Data Explanation
 tagline: 
 # Tags is a comma separated list of the publication tags in _data/pubs.yml
