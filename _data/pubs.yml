@@ -22,6 +22,7 @@
 - authors: Sanjay Krishnan, Michael J. Franklin, Ken Goldberg, Eugene Wu
   title: 'BoostClean: Automated Error Detection and Repair for Machine Learning'
   conf: Tech Report
+  url: https://arxiv.org/abs/1711.01299
   tags:
   - clean
 - authors: Marianne Procopio, Carlos Scheidegger, Eugene Wu, Remco Chang

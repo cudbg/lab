@@ -80,6 +80,24 @@ b, strong {
 }
 
 
+.fig {
+}
+
+.subfig{
+  width: 18%;
+  min-width: 180px;
+  float: left;
+}
+.subfig img {
+  width: 150px;
+}
+.subfig p {
+  text-align: center;
+  width: 90%;
+  font-family: "Computer Modern", serif;
+  color: grey;
+}
+
 
 
 .pubs {

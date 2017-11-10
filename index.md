@@ -9,7 +9,7 @@ Our research focuses on three areas that are critical bottlenecks to the future 
 Several of our systems are [named after Mortal Kombat ninjas](http://eugenewu.net/ninjas.html)
 
 **Data Cleaning**
-Data analysis and machine learning are increasingly reliant on the quality of the input data---spurious errors and systematic corruptions can result in misleading and incorrect results.  We work on [automated data cleaning algorithms](https://activeclean.github.io/) that are tailored towards data science applications, as well as [crowdsourcing systems](./crowdsourcing) for collecting high-quality new data.
+Data analysis and machine learning are increasingly reliant on the quality of the input data---spurious errors and systematic corruptions can result in misleading and incorrect results.  We work on [automated data cleaning algorithms](./cleaning) that are tailored towards data science applications, as well as [crowdsourcing systems](./crowdsourcing) for collecting high-quality new data.
 
 **Explanation & Interpretation**
 Data analysis is never one-shot -- it is an iterative process where analysis results spur new analyses or ways to debug the analysis.  We work on [data explanation systems](./dbexplain) that enable analysts to highlight abnomalies in analysis results and explain potential reasons to investigate, as well as [machine learning explanation techniques](./mlexplain) that explain how and what machine learning models (e.g., deep neural networks) learn to make their predictions.

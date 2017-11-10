@@ -71,6 +71,23 @@ h4 {
   color: #aaa;
 }
 
+.fig {
+}
+
+.subfig{
+  width: 20%;
+  min-width: 215px;
+  float: left;
+}
+.subfig img {
+  width: 200px;
+}
+.subfig p {
+  text-align: center;
+  font-family: "Computer Modern", serif;
+  color: grey;
+}
+
 
 
 .row {
