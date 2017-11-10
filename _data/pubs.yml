@@ -19,6 +19,11 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- authors: Sanjay Krishnan, Michael J. Franklin, Ken Goldberg, Eugene Wu
+  title: 'BoostClean: Automated Error Detection and Repair for Machine Learning'
+  conf: Tech Report
+  tags:
+  - clean
 - authors: Marianne Procopio, Carlos Scheidegger, Eugene Wu, Remco Chang
   title: 'Load-n-Go: Fast Approximate Join Visualizations That Improve Over Time'
   conf: DSIA 2017
