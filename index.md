@@ -2,7 +2,7 @@
 layout: index
 ---
 
-Our research focuses on three areas that are critical bottlenecks to the future of data analysis: data cleaning, creating interactive data exploration and visualization interfaces, and understanding analysis results.  The following describes several of our main projects in these areas.
+Our overarching mission is to work on 🔥💣  projects, with a leading towards three bottlenecks areas in the future of data analysis: data cleaning, creating interactive data exploration and visualization interfaces, and understanding analysis results.  The following describes several of our main projects in these areas.
 
 [These slides](https://www.dropbox.com/s/yauhvxdkv0kna7h/2017-10-midwest-6pp.pdf?dl=0) describe our lab's vision and a select few of our current projects.
 
