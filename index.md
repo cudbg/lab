@@ -2,9 +2,7 @@
 layout: index
 ---
 
-Our overarching mission is to work on 🔥💣  projects, with a leading towards three bottlenecks areas in the future of data analysis: data cleaning, creating interactive data exploration and visualization interfaces, and understanding analysis results.  The following describes several of our main projects in these areas.
-
-[These slides](https://www.dropbox.com/s/yauhvxdkv0kna7h/2017-10-midwest-6pp.pdf?dl=0) describe our lab's vision and a select few of our current projects.
+Our overarching mission is to work on 🔥💣  projects, with a leaning towards addressing three bottlenecks in the future of data analysis: data cleaning, creating interactive data exploration and visualization interfaces, and understanding analysis results. [These slides describe our lab's vision and a few recent projects](https://www.dropbox.com/s/yauhvxdkv0kna7h/2017-10-midwest-6pp.pdf?dl=0).
 
 Several of our systems are [named after Mortal Kombat ninjas](http://eugenewu.net/ninjas.html)
 
