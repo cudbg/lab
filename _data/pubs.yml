@@ -19,6 +19,14 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- authors: Haoci Zhang, Thibault Sellam, Eugene Wu 
+  title: 'Mining Precision Interfaces From Query Logs'
+  conf: Tech Report
+  url: https://arxiv.org/abs/1712.00078
+  selected: true
+  tags:
+  - vis
+  - pi
 - authors: Sanjay Krishnan, Michael J. Franklin, Ken Goldberg, Eugene Wu
   title: 'BoostClean: Automated Error Detection and Repair for Machine Learning'
   conf: Tech Report
