@@ -4,7 +4,6 @@
 #   * square, 
 #   * at least 200x200px and 
 #   * placed in /files/images/people/
-# Set alum to 1 if have graduated
 #
 current:
   - img: eugenewu.png
@@ -31,10 +30,6 @@ current:
     url: https://www.ocf.berkeley.edu/~sanjayk/
     img: sanjay.jpg
     role: Collab (Cal)
-  - name: Tejas Dharamsi
-    url: https://www.linkedin.com/in/tejasdharamsi
-    img: tejasdharamsi.jpg
-    role: Masters
   - img: conder.jpg
     name: Conder Shou
     role: Undergrad
@@ -47,24 +42,37 @@ current:
   - img: kevin.jpg
     name: Kevin Lin
     role: Undergrad
+  - name: Ian Huang
+    role: Undergrad
+    img: ianhuang.jpg
   - img: hamed.png
     name: Hamed Nilforoshan
     role: Undergrad
     url: http://hamedn.com/
-  - img: lily.jpg
-    name: Lily-Xiaoxuan Liu
-    role: Intern
   - name: HaoCi Zhang
     img: haoci.jpg
     url: http://www.zhanghaoci.com/
-    role: Intern
+    role: Masters
+  - name: Young Wu
+    url: http://wooya.me/
+    img: youngwu.png
+    role: Collab (SFU)
+alum:
+  - name: Tejas Dharamsi
+    url: https://www.linkedin.com/in/tejasdharamsi
+    img: tejasdharamsi.jpg
+    role: Masters
   - name: Mengyang Lyu
     role: Intern
   - name: Ziyun Wei
     role: Intern
   - name: Alex Studer
     role: High School
-alum:
+  - name: Gabriel Ryan
+    role: Masters
+  - img: lily.jpg
+    name: Lily-Xiaoxuan Liu
+    role: Intern
   - name: Daniel Haas
     url: http://www.cs.berkeley.edu/~dhaas/
     img: dhaas.jpg
