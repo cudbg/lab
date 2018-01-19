@@ -30,6 +30,10 @@ current:
     url: https://www.ocf.berkeley.edu/~sanjayk/
     img: sanjay.jpg
     role: Collab (Cal)
+  - name: Young Wu
+    url: http://wooya.me/
+    img: youngwu.png
+    role: Collab (SFU)
   - img: conder.jpg
     name: Conder Shou
     role: Undergrad
@@ -53,22 +57,10 @@ current:
     img: haoci.jpg
     url: http://www.zhanghaoci.com/
     role: Masters
-  - name: Young Wu
-    url: http://wooya.me/
-    img: youngwu.png
-    role: Collab (SFU)
 alum:
   - name: Tejas Dharamsi
     url: https://www.linkedin.com/in/tejasdharamsi
     img: tejasdharamsi.jpg
-    role: Masters
-  - name: Mengyang Lyu
-    role: Intern
-  - name: Ziyun Wei
-    role: Intern
-  - name: Alex Studer
-    role: High School
-  - name: Gabriel Ryan
     role: Masters
   - img: lily.jpg
     name: Lily-Xiaoxuan Liu
@@ -105,4 +97,12 @@ alum:
     img: rahulkhanna.jpg
     url: https://www.linkedin.com/in/rahul-khanna-1b97317a
     role: Undergrad
+  - name: Mengyang Lyu
+    role: Intern
+  - name: Ziyun Wei
+    role: Intern
+  - name: Alex Studer
+    role: High School
+  - name: Gabriel Ryan
+    role: Masters
 
