@@ -19,6 +19,28 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- author: Pei Wang, Yongjun He, Ryan Shea, Jiannan Wang, Eugene Wu. 
+  title: 'Deeper: A Data Enrichment System Powered by Deep Web.'
+  conf: SIGMOD (demo)
+  year: 2018
+  tags:
+  - clean
+- authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Carl Vondrick, Eugene Wu
+  title: '“I Like the Way You Think!” Inspecting the Internal Logic of Recurrent Neural Networks'
+  conf: SysML 2018
+  url: https://www.dropbox.com/s/7r8abwnpcmg1k1k/dnn-sysml18.pdf?dl=0
+  selected: true
+  year: 2018
+  tags:
+  - ml, mlexplain
+- authors: Fotis Psallidas, Eugene Wu
+  title: 'Smoke: Fine-grained Lineage at Interactive Speeds'
+  conf: VLDB 2018 Preprint
+  url: https://arxiv.org/abs/1801.07237
+  selected: true
+  tags:
+  - db
+  - vis
 - authors: Haoci Zhang, Thibault Sellam, Eugene Wu 
   title: 'Mining Precision Interfaces From Query Logs'
   conf: Tech Report
