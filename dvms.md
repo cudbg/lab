@@ -4,7 +4,9 @@ color: "#44bf6d"
 logo: DVMS
 tagline: Data Visualization<br/> Management System
 # Tags is a comma separated list of the publication tags in _data/pubs.yml
-tags: vis
+tags: 
+- vis
+- db
 ---
 
 <div class="callout">

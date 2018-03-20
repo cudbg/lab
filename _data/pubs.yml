@@ -32,7 +32,8 @@
   selected: true
   year: 2018
   tags:
-  - ml, mlexplain
+  - ml
+  - mlexplain
 - authors: Fotis Psallidas, Eugene Wu
   title: 'Smoke: Fine-grained Lineage at Interactive Speeds'
   conf: VLDB 2018 Preprint

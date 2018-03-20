@@ -4,7 +4,8 @@ color: "#49c7f7"
 logo: Auto-Data Cleaning 
 tagline: 
 # Tags is a comma separated list of the publication tags in _data/pubs.yml
-tags: clean
+tags: 
+- clean
 ---
 
 

@@ -4,7 +4,9 @@ color: "#f77d49"
 logo: ML Explanation
 tagline: 
 # Tags is a comma separated list of the publication tags in _data/pubs.yml
-tags: mlexplain
+tags: 
+- mlexplain
+- ml
 ---
 
 

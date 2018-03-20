@@ -3,7 +3,8 @@ layout: project
 color: "#5b9ee2"
 logo: Crowdsourcing
 tagline: 
-tags: crowd
+tags: 
+- crowd
 ---
 
 <div class="callout">
