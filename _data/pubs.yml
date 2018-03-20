@@ -250,6 +250,9 @@
   selected: true
   tags:
   - thesis
+  - vis
+  - db
+  - dbexplain
   title: Explaining Data in Visual Analytic Systems
   url: http://sirrice.github.io/files/papers/thesis.pdf
 - authors: Eugene Wu, Leilani Battle, Samuel Madden
@@ -263,6 +266,7 @@
   conf: DBCrowd 2013
   tags:
   - misc
+  - crowd
   title: 'Data In Context: Aiding News Consumers while Taming Dataspaces'
   url: http://sirrice.github.io/files/papers/dataincontext.pdf
 - authors: Alvin Cheung, Lenin Ravindranath, Eugene Wu, Samuel Madden, Hari Balakrishnan
@@ -293,6 +297,7 @@
   tags:
   - clean
   - vis
+  - dbexplain
   title: 'A Demonstration of DBWipes: Clean as You Query'
   url: http://sirrice.github.io/files/papers/dbwipes-vldb2012.pdf
 - authors: Adam Marcus, Eugene Wu, David Karger, Samuel Madden, Robert Miller
