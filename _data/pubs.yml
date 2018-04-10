@@ -19,10 +19,37 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
-- author: Pei Wang, Yongjun He, Ryan Shea, Jiannan Wang, Eugene Wu. 
+- authors: Hamed Nilforoshan, Eugene Wu
+  title: 'Leveraging Quality Prediction Models for Automatic Writing Feedback'
+  conf: ICWSM
+  year: 2018
+  url: https://www.dropbox.com/s/38cb4rz7vl2ni9g/dialectic-icwsm18-cr.pdf?dl=0
+  selected: true
+  tags:
+  - mlexplain
+  - crowd
+- authors: HaoCi Zhang, Viraj Rai, Thibault Sellam, Eugene Wu
+  title: 'Precision Interfaces for Different Modalities'
+  conf: SIGMOD (demo)
+  year: 2018
+  url: https://www.dropbox.com/s/0hqjy6ha0antw7u/precisoninterface-sigmod2018demo-cr.pdf?dl=0
+  selected: true
+  tags:
+    - vis
+- authors: Fotis Psallidas, Eugene Wu
+  title: 'Demonstration of Smoke: A Deep Breath of Data-Intensive Lineage Applications'
+  conf: SIGMOD (demo)
+  url: https://www.dropbox.com/s/io5hpu5rn4tl9m5/smoke-sigmod18demo-cr.pdf?dl=0
+  year: 2018
+  selected: true
+  tags:
+  - db
+  - vis
+- authors: Pei Wang, Yongjun He, Ryan Shea, Jiannan Wang, Eugene Wu. 
   title: 'Deeper: A Data Enrichment System Powered by Deep Web.'
   conf: SIGMOD (demo)
   year: 2018
+  url: https://www.dropbox.com/s/nckhduhh294xiq8/deeper-sigmoddemo18-cr.pdf?dl=0
   tags:
   - clean
 - authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Carl Vondrick, Eugene Wu
@@ -32,8 +59,15 @@
   selected: true
   year: 2018
   tags:
-  - ml
-  - mlexplain
+  - ml, mlexplain
+- authors: Eugene Wu
+  title: 'A “Probabilistic” Model of Research'
+  conf: Blog Post 2018
+  url: http://researchsetup.github.io/researchmodel
+  selected: true
+  year: 2018
+  tags:
+  - db
 - authors: Fotis Psallidas, Eugene Wu
   title: 'Smoke: Fine-grained Lineage at Interactive Speeds'
   conf: VLDB 2018 Preprint
@@ -44,7 +78,7 @@
   - vis
 - authors: Haoci Zhang, Thibault Sellam, Eugene Wu 
   title: 'Mining Precision Interfaces From Query Logs'
-  conf: Tech Report
+  conf: Tech Report 2017
   url: https://arxiv.org/abs/1712.00078
   selected: true
   tags:
@@ -52,12 +86,14 @@
   - pi
 - authors: Sanjay Krishnan, Michael J. Franklin, Ken Goldberg, Eugene Wu
   title: 'BoostClean: Automated Error Detection and Repair for Machine Learning'
-  conf: Tech Report
+  conf: Tech Report 2017
   url: https://arxiv.org/abs/1711.01299
   tags:
   - clean
+  selected: true
 - authors: Marianne Procopio, Carlos Scheidegger, Eugene Wu, Remco Chang
   title: 'Load-n-Go: Fast Approximate Join Visualizations That Improve Over Time'
+  url: https://www.dropbox.com/s/2n1a4l0k63x9o4x/loadngo-dsia17.pdf?dl=0
   conf: DSIA 2017
   selected: true
   tags:
@@ -65,12 +101,14 @@
 - authors: Gabriel Ryan, Abigail Mosca, Eugene Wu, Remco Chang
   title: 'Approximate Entropy as a Measure of Line Chart Complexity'
   conf: InfoVIS Poster 2017
+  url: https://www.dropbox.com/s/5ed977dwelnd5c9/glance-infovisposter17.pdf?dl=0
   selected: true
   tags:
   - vis
 - title: 'Towards a Bayesian Model of Data Visualization Cognition'
   authors: Yifan Wu, Larry Xu, Remco Chang, Eugene Wu
   conf: DECISIVE 2017
+  url: https://www.dropbox.com/s/tede3vonedgd49k/bayesianvis-decisive17.pdf?dl=0
   tags:
   - vis
 - authors: Hamed Nilforoshan, Jiannan Wang, Eugene Wu
@@ -98,7 +136,6 @@
   title: 'PALM: Machine Learning Explanations For Iterative Debugging'
 - authors: Hamed Nilforoshan, James Sands, Kevin Lin, Rahul Khanna, Eugene Wu
   conf: Collective Intelligence 2017
-  selected: true
   tags:
   - ml
   - crowd
@@ -113,7 +150,6 @@
   url: https://arxiv.org/abs/1701.06718
 - authors: Liwen Sun, Michael J. Franklin, Jiannan Wang, Eugene Wu
   conf: VLDB 2017
-  selected: true
   tags:
   - db
   title: Skipping-oriented Partitioning for Columnar Layouts
@@ -144,6 +180,7 @@
   tags:
   - vis
   title: A DeVIL-ish Approach to Inconsistency in Interactive Visualizations
+  selected: true
   url: http://sirrice.github.io/files/papers/devil-hilda16.pdf
 - authors: Daniel Alabi, Eugene Wu
   conf: Hilda 2016
@@ -213,7 +250,6 @@
   url: http://sirrice.github.io/files/papers/sampleclean-overview.pdf
 - authors: Daniel Haas, Jiannan Wang, Eugene Wu, Michael J. Franklin
   conf: VLDB 2016
-  selected: true
   tags:
   - crowd
   title: 'CLAMShell: Speeding up Crowds for Low-latency Data Labeling'
@@ -250,9 +286,6 @@
   selected: true
   tags:
   - thesis
-  - vis
-  - db
-  - dbexplain
   title: Explaining Data in Visual Analytic Systems
   url: http://sirrice.github.io/files/papers/thesis.pdf
 - authors: Eugene Wu, Leilani Battle, Samuel Madden
@@ -266,7 +299,6 @@
   conf: DBCrowd 2013
   tags:
   - misc
-  - crowd
   title: 'Data In Context: Aiding News Consumers while Taming Dataspaces'
   url: http://sirrice.github.io/files/papers/dataincontext.pdf
 - authors: Alvin Cheung, Lenin Ravindranath, Eugene Wu, Samuel Madden, Hari Balakrishnan
@@ -297,7 +329,6 @@
   tags:
   - clean
   - vis
-  - dbexplain
   title: 'A Demonstration of DBWipes: Clean as You Query'
   url: http://sirrice.github.io/files/papers/dbwipes-vldb2012.pdf
 - authors: Adam Marcus, Eugene Wu, David Karger, Samuel Madden, Robert Miller
