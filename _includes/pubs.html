@@ -3,6 +3,10 @@
     {% for p in {{site.data.pubs}} %}
       {% assign found = false %}
       {% for tag in p.tags %}
+        {% if page.tags  %}
+        {% else %}
+          {% assign found = true %}
+        {% endif %}
         {% if page.tags contains tag %}
           {% assign found = true %}
         {% endif %}

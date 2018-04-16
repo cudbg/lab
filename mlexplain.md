@@ -18,6 +18,13 @@ Machine learning models are increasingly used in critial real-world applications
 
 To this end, our lab develops algorithms to interpret complex machine learning models (e.g., deep neural networks, random forests, etc) by identifying training data that affected a prediction, describing what parts of the model are learning, and how user generated inputs can be improved to better help the model.
 
+## Deep Neural Inspection
+
+Deep neural networks are revolutionizing many domains and increasingly employed in production and real-world environments. Yet, how do we ensure that learned models behave reliably and as intended? Software engineering principles such as abstraction and modularity help us build and understand reliable systems by principled construction. Yet neural networks are black boxes akin to a block of assembly code. 
+
+The Deep Neural Inspection (DNI) project aims to develop software primitives to identify whether subsets of a neural network have learned developer-understandable logic.  This serves as the basis towards introducing software engineering concepts such as abstractions, modularity, and assertions to the development and understanding of neural network models.  
+
+
 ## FACE PALM
 
 When a Deep Neural Network makes a misprediction,  it can be challenging for a developer to understand why. While there are many models for interpretability in terms of predictive features, it may be more natural to isolate a small set of training examples that have the greatest influence on the prediction. However, it is often the case that every training example contributes to a prediction in some way but with varying degrees of responsibility. 

@@ -34,6 +34,7 @@
   selected: true
   tags:
     - vis
+    - pi
 - authors: Fotis Psallidas, Eugene Wu
   title: 'Demonstration of Smoke: A Deep Breath of Data-Intensive Lineage Applications'
   conf: SIGMOD (demo) 2018
@@ -54,7 +55,8 @@
   url: https://www.dropbox.com/s/7r8abwnpcmg1k1k/dnn-sysml18.pdf?dl=0
   selected: true
   tags:
-  - ml, mlexplain
+  - ml
+  - mlexplain
 - authors: Eugene Wu
   title: 'A “Probabilistic” Model of Research'
   conf: Blog Post 2018
