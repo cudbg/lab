@@ -21,8 +21,7 @@
 #
 - authors: Hamed Nilforoshan, Eugene Wu
   title: 'Leveraging Quality Prediction Models for Automatic Writing Feedback'
-  conf: ICWSM
-  year: 2018
+  conf: ICWSM 2018
   url: https://www.dropbox.com/s/38cb4rz7vl2ni9g/dialectic-icwsm18-cr.pdf?dl=0
   selected: true
   tags:
@@ -30,25 +29,22 @@
   - crowd
 - authors: HaoCi Zhang, Viraj Rai, Thibault Sellam, Eugene Wu
   title: 'Precision Interfaces for Different Modalities'
-  conf: SIGMOD (demo)
-  year: 2018
+  conf: SIGMOD (demo) 2018
   url: https://www.dropbox.com/s/0hqjy6ha0antw7u/precisoninterface-sigmod2018demo-cr.pdf?dl=0
   selected: true
   tags:
     - vis
 - authors: Fotis Psallidas, Eugene Wu
   title: 'Demonstration of Smoke: A Deep Breath of Data-Intensive Lineage Applications'
-  conf: SIGMOD (demo)
+  conf: SIGMOD (demo) 2018
   url: https://www.dropbox.com/s/io5hpu5rn4tl9m5/smoke-sigmod18demo-cr.pdf?dl=0
-  year: 2018
   selected: true
   tags:
   - db
   - vis
 - authors: Pei Wang, Yongjun He, Ryan Shea, Jiannan Wang, Eugene Wu. 
   title: 'Deeper: A Data Enrichment System Powered by Deep Web.'
-  conf: SIGMOD (demo)
-  year: 2018
+  conf: SIGMOD (demo) 2018
   url: https://www.dropbox.com/s/nckhduhh294xiq8/deeper-sigmoddemo18-cr.pdf?dl=0
   tags:
   - clean
@@ -57,7 +53,6 @@
   conf: SysML 2018
   url: https://www.dropbox.com/s/7r8abwnpcmg1k1k/dnn-sysml18.pdf?dl=0
   selected: true
-  year: 2018
   tags:
   - ml, mlexplain
 - authors: Eugene Wu
@@ -65,7 +60,6 @@
   conf: Blog Post 2018
   url: http://researchsetup.github.io/researchmodel
   selected: true
-  year: 2018
   tags:
   - db
 - authors: Fotis Psallidas, Eugene Wu
