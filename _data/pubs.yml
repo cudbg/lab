@@ -19,6 +19,13 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- authors: Fotis Psallidas, Eugene Wu
+  title: 'Provenance in Interactive Visualizations'
+  conf: HILDA 2018
+  url: https://www.dropbox.com/s/fkp5hk1gp4lrg9h/smoke-hilda18.pdf?dl=0
+  tags:
+    - vis
+    - db
 - authors: Hamed Nilforoshan, Eugene Wu
   title: 'Leveraging Quality Prediction Models for Automatic Writing Feedback'
   conf: ICWSM 2018
