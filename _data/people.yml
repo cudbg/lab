@@ -54,6 +54,9 @@ current:
     img: haoci.jpg
     url: http://www.zhanghaoci.com/
     role: Masters
+  - img: qianrui.jpg
+    name: Qianrui Zhang
+    role: Intern
 alum:
   - name: Tejas Dharamsi
     url: https://www.linkedin.com/in/tejasdharamsi
@@ -105,4 +108,3 @@ alum:
   - img: salim.jpg
     name: Salim M'jahad
     role: Undergrad
-
