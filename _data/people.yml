@@ -37,9 +37,6 @@ current:
   - img: conder.jpg
     name: Conder Shou
     role: Undergrad
-  - img: salim.jpg
-    name: Salim M'jahad
-    role: Undergrad
   - img: robbie.jpg
     name: Robbie Netzorg
     role: Undergrad
@@ -105,4 +102,7 @@ alum:
     role: High School
   - name: Gabriel Ryan
     role: Masters
+  - img: salim.jpg
+    name: Salim M'jahad
+    role: Undergrad
 
