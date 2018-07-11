@@ -19,6 +19,12 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- authors: Gabriel Ryan, Abigail Mosca, Remco Chang, Eugene Wu
+  title: 'At a Glance: Approximate Entropy as a Measure of Line Chart Visualization Complexity'
+  conf: InfoVIS 2018
+  url: https://www.dropbox.com/s/9jipqhq1yqgn5yt/glance-infovis18-camera.pdf?dl=0
+  tags:
+    - vis
 - authors: Fotis Psallidas, Eugene Wu
   title: 'Provenance in Interactive Visualizations'
   conf: HILDA 2018
