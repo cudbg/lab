@@ -8,5 +8,7 @@
 
 # Adding Your Picture/Info
 
+* fork this repo
 * edit `_data/people.yml` and add your info
 * add a _square_ photo of yourself to `/files/images/people/`
+* submit a pull request
