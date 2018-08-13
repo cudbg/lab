@@ -57,6 +57,10 @@ current:
   - img: qianrui.jpg
     name: Qianrui Zhang
     role: Intern
+  - img: lauren.jpg
+    name: Lauren Arnett
+    role: Undergrad
+    
 alum:
   - name: Tejas Dharamsi
     url: https://www.linkedin.com/in/tejasdharamsi
