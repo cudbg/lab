@@ -18,34 +18,21 @@ current:
     name: Thibault Sellam
     role: Postdoc
     url: http://sellam.me/
-  - name: Xiaolan Wang
-    url: https://people.cs.umass.edu/~xlwang/
-    img: xiaolan.jpg
-    role: Collab (UMass)
   - name: Yifan Wu
     url: http://www.cs.berkeley.edu/~yifanwu/
     img: yifan.jpg
     role: Collab (Cal)
   - name: Sanjay Krishnan
-    url: https://www.ocf.berkeley.edu/~sanjayk/
+    url: http://sanjayk.io/
     img: sanjay.jpg
-    role: Collab (Cal)
+    role: Collab (UChicago)
   - name: Young Wu
     url: http://wooya.me/
     img: youngwu.png
     role: Collab (SFU)
-  - img: conder.jpg
-    name: Conder Shou
-    role: Undergrad
   - img: robbie.jpg
     name: Robbie Netzorg
     role: Undergrad
-  - img: kevin.jpg
-    name: Kevin Lin
-    role: Undergrad
-  - name: Ian Huang
-    role: Undergrad
-    img: ianhuang.jpg
   - img: hamed.png
     name: Hamed Nilforoshan
     role: Undergrad
@@ -62,13 +49,26 @@ current:
     role: Undergrad
     
 alum:
+  - img: kevin.jpg
+    name: Kevin Lin
+    role: Undergrad (now @AI2)
+  - name: Ian Huang
+    role: Undergrad
+    img: ianhuang.jpg
+  - img: conder.jpg
+    name: Conder Shou
+    role: Undergrad
   - name: Tejas Dharamsi
     url: https://www.linkedin.com/in/tejasdharamsi
     img: tejasdharamsi.jpg
-    role: Masters
+    role: Masters (now @Trifacta)
   - img: lily.jpg
     name: Lily-Xiaoxuan Liu
     role: Intern
+  - name: Xiaolan Wang
+    url: https://people.cs.umass.edu/~xlwang/
+    img: xiaolan.jpg
+    role: Collab (UMass)
   - name: Daniel Haas
     url: http://www.cs.berkeley.edu/~dhaas/
     img: dhaas.jpg
