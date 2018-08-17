@@ -19,6 +19,13 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Michelle Yang, Carl Vondrick, Eugene Wu
+  title: 'DeepBase: Deep Inspection of Neural Networks'
+  url: https://arxiv.org/abs/1808.04486
+  selected: true
+  conf: Technical Report
+  tags:
+    - ml
 - authors: Gabriel Ryan, Abigail Mosca, Remco Chang, Eugene Wu
   title: 'At a Glance: Approximate Entropy as a Measure of Line Chart Visualization Complexity'
   conf: InfoVIS 2018
