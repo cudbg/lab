@@ -47,6 +47,9 @@ current:
   - img: lauren.jpg
     name: Lauren Arnett
     role: Undergrad
+  - img: conder.jpg
+    name: Conder Shou
+    role: Undergrad
     
 alum:
   - img: kevin.jpg
@@ -55,9 +58,6 @@ alum:
   - name: Ian Huang
     role: Undergrad
     img: ianhuang.jpg
-  - img: conder.jpg
-    name: Conder Shou
-    role: Undergrad
   - name: Tejas Dharamsi
     url: https://www.linkedin.com/in/tejasdharamsi
     img: tejasdharamsi.jpg
