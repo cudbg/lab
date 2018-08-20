@@ -50,6 +50,10 @@ current:
   - img: conder.jpg
     name: Conder Shou
     role: Undergrad
+  - img: haneen.jpg
+    name: Haneen Mohammed
+    role: Grad Student
+    url: http://haneensa.github.io/
     
 alum:
   - img: kevin.jpg
