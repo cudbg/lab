@@ -116,3 +116,7 @@ alum:
   - img: salim.jpg
     name: Salim M'jahad
     role: Undergrad
+  - name: Yiliang Shi
+    url: http://yiliangs.com/
+    img: yiliangs.jpg
+    role: Grad Student    
