@@ -54,6 +54,10 @@ current:
     name: Haneen Mohammed
     role: Grad Student
     url: http://haneensa.github.io/
+  - name: Yiliang Shi
+    url: http://yiliangs.com/
+    img: yiliangs.jpg
+    role: Grad Student        
     
 alum:
   - img: kevin.jpg
