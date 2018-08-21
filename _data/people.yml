@@ -18,6 +18,18 @@ current:
     name: Thibault Sellam
     role: Postdoc
     url: http://sellam.me/
+  - img: haneen.jpg
+    name: Haneen Mohammed
+    role: Grad Student
+    url: http://haneensa.github.io/
+  - name: Yiliang Shi
+    url: http://yiliangs.com/
+    img: yiliangs.jpg
+    role: Grad Student   
+  - name: Yiru Chen
+    url: https://ireneruru.github.io/
+    img: yiru.jpg
+    role: Grad Student      
   - name: Yifan Wu
     url: http://www.cs.berkeley.edu/~yifanwu/
     img: yifan.jpg
@@ -50,18 +62,6 @@ current:
   - img: conder.jpg
     name: Conder Shou
     role: Undergrad
-  - img: haneen.jpg
-    name: Haneen Mohammed
-    role: Grad Student
-    url: http://haneensa.github.io/
-  - name: Yiliang Shi
-    url: http://yiliangs.com/
-    img: yiliangs.jpg
-    role: Grad Student   
-  - name: Yiru Chen
-    url: https://ireneruru.github.io/
-    img: yiru.jpg
-    role: Grad Student      
     
 alum:
   - img: kevin.jpg
