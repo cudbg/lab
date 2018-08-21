@@ -57,7 +57,11 @@ current:
   - name: Yiliang Shi
     url: http://yiliangs.com/
     img: yiliangs.jpg
-    role: Grad Student        
+    role: Grad Student   
+  - name: Yiru Chen
+    url: https://ireneruru.github.io/
+    img: yiru.jpg
+    role: Grad Student      
     
 alum:
   - img: kevin.jpg
