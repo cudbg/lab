@@ -19,6 +19,12 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- title: 'Ten Years of Web Tables'
+  authors: Michael Cafarella, Alon Halevy, Daisy Zhe Wang, Hongrae Lee, Jayant Madhavan, Cong Yu, Eugene Wu,
+  url: https://www.dropbox.com/s/y3xlfstgoq8a221/webtables-vldb18.pdf?dl=0,
+  conf: PVLDB 2018 Invited Paper,
+  tags:
+    - db
 - authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Michelle Yang, Carl Vondrick, Eugene Wu
   title: 'DeepBase: Deep Inspection of Neural Networks'
   url: https://arxiv.org/abs/1808.04486
