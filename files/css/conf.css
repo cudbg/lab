@@ -31,7 +31,9 @@ h4 {
 }
 a {
   text-decoration: none;
+  font-weight: 500;
   color: hsla(200, 70%, 55%, 1);
+  color: #00478E;
 }
 
 a:hover {
@@ -60,12 +62,12 @@ body {
 }
 b, strong {
   color: #555;
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-top: 1.5em;
+  /*margin-top: 1.5em;
   margin-bottom: 5px;
-  display: block;
+  display: block;*/
 }
 
 
@@ -118,8 +120,6 @@ b, strong {
 
 ul, ol {
   list-style-position: outside;
-  list-style-type: none;
-  padding: 0px;
 }
 li {
   margin-bottom: 1em;

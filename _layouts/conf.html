@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<body>
+
+
+
+
+<h1>
+  <span id="logo" >{{page.logo}}</span>
+  <span id="tagline">{{page.tagline}}</span>
+  <div style="clear=both;width:100%;">&nbsp;</div>
+</h1>
+
+{{content}}
+
+
+<style>
+html { background: {{page.color}}; }
+#logo, h2 { color: {{page.color}}; }
+a { color: {{page.color}}; }
+a:hover { color: white; background: {{page.color}}; }
+</style>
+<link rel="stylesheet" type="text/css" href="./files/css/conf.css" />
+
+</html>
+
