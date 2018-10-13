@@ -7,8 +7,8 @@ logo: NY Database Day 2019
 New York Database Day is a workshop targeting the database researchers and research-oriented practitioners in the New York area. New York has an incredibly strong database presence, and it is prime time for folks to get together. The [Database Group at Columbia University](https://cudbg.github.io) will host the inaugural NYDBDay on November 9th at Columbia University. The purpose is for researchers in the area to learn about each others’ research, have discussions on important database directions, and look for ways to grow and foster the research+industrial community.
 
 * [Submit and Register Here](https://goo.gl/forms/DQcfAMCzqg6hmaVJ3)
-* Date: 11/9 9:45AM - 6PM
-* Location: 4th Floor Computer Science Lounge, Mudd Building, [500 W 120th St](https://goo.gl/maps/3j1L69NpGZS2)
+* Date: Saturday 11/10 9:45AM - 6PM
+* Location: Columbia Computer Science Dept, Mudd Building, [500 W 120th St](https://goo.gl/maps/3j1L69NpGZS2)
 
 
 As part of the agenda below, we have two blocks of times for presentations. Before lunch, academic researchers will share an overview of their research directions. After lunch, friends in industry will give 5-minute lightning talks about their work. We invite participants to submit short 1-2 paragraph abstracts for research talks, lightning talks, or posters.
@@ -33,7 +33,7 @@ The tentative agenda is as follows:
 
 * Registration and Submission deadline: 10/30/2018
 * Submission Notifications: 11/3/2018
-* Workshop: 11/9/2018
+* Workshop: 11/10/2018
 
 ### Submission and registration
 
