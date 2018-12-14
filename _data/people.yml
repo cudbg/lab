@@ -62,6 +62,9 @@ current:
   - img: conder.jpg
     name: Conder Shou
     role: Undergrad
+  - img: amita.jpg
+    name: Amita Shukla
+    role: Undergrad
     
 alum:
   - img: kevin.jpg
