@@ -29,7 +29,11 @@ current:
   - name: Yiru Chen
     url: https://ireneruru.github.io/
     img: yiru.jpg
-    role: Grad Student      
+    role: Grad Student  
+  - name: Bill Sun
+    url: http://www.columbia.edu/~ys3199/  
+    img: billsun.jpg 
+    role: Intern 
   - name: Yifan Wu
     url: http://www.cs.berkeley.edu/~yifanwu/
     img: yifan.jpg
