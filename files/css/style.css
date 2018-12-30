@@ -10,6 +10,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1em;
+  font-size: 13pt;
 }
 
 a {
@@ -56,8 +57,8 @@ h4 {
 
 .stitle {
   text-align: right;
-  line-height: 12pt;
-	font-family: Raleway;
+  line-height: 17pt;
+  font-family: Raleway;
   font-size: 16pt;
   font-weight: 400;
   color: hsla(200, 70%, 55%, 1);
@@ -65,8 +66,8 @@ h4 {
 
 .project .stitle {
   text-align: right;
-  line-height: 12pt;
-  font-size: 12pt;
+  line-height: 14pt;
+  font-size: 14pt;
   font-weight: 600;
   color: #aaa;
 }
