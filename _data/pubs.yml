@@ -19,10 +19,18 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
+- authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Michelle Yang, Carl Vondrick, Eugene Wu
+  title: 'DeepBase: Deep Inspection of Neural Networks'
+  url: https://www.dropbox.com/s/7yk2gr1qifvgakk/dnn-sigmod19-cr.pdf?dl=0
+  selected: true
+  conf: SIGMOD 2019
+  tags:
+    - ml
+    - mlexplain
 - title: 'Deep Neural Inspection Using DeepBase'
   authors: Yiru Chen, Yiliang Shi, Boyuan Chen, Thibault Sellam, Carl Vondrick, Eugene Wu
   url: https://www.dropbox.com/s/abth7ko579cf9mu/dnn-nips19learnsys-cr.pdf?dl=0
-  conf: LearnSys 2019 Workshop at NIPS
+  conf: LearnSys 2018 Workshop at NIPS
   selected: true
   tags:
     - ml
