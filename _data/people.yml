@@ -10,14 +10,6 @@ current:
     name: Eugene Wu 
     role: PI
     url: http://www.eugenewu.net
-  - img: psfotis.jpg
-    name: Fotis Psallidas
-    role: Grad Student
-    url: http://www.cs.columbia.edu/~fotis/
-  - img: t-bone.jpg
-    name: Thibault Sellam
-    role: Postdoc
-    url: http://sellam.me/
   - img: haneen.jpg
     name: Haneen Mohammed
     role: Grad Student
@@ -49,13 +41,6 @@ current:
     name: Hamed Nilforoshan
     role: Undergrad
     url: http://hamedn.com/
-  - name: HaoCi Zhang
-    img: haoci.jpg
-    url: http://www.zhanghaoci.com/
-    role: Masters
-  - img: qianrui.jpg
-    name: Qianrui Zhang
-    role: Intern
   - img: lauren.jpg
     name: Lauren Arnett
     role: Undergrad
@@ -70,6 +55,21 @@ current:
     img: billsun.jpg 
     role: Intern 
 alum:
+  - img: psfotis.jpg
+    name: Fotis Psallidas
+    role: Grad Student
+    url: http://www.cs.columbia.edu/~fotis/
+  - img: t-bone.jpg
+    name: Thibault Sellam
+    role: Postdoc
+    url: http://sellam.me/
+  - name: HaoCi Zhang
+    img: haoci.jpg
+    url: http://www.zhanghaoci.com/
+    role: Masters
+  - img: qianrui.jpg
+    name: Qianrui Zhang
+    role: Intern
   - img: kevin.jpg
     name: Kevin Lin
     role: Undergrad (now @AI2)
