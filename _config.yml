@@ -14,17 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 #
-title: QFix
+title: WuLab
 email: 
-description: > # this means to ignore newlines until "baseurl:"
-  Website for QFix research project 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://queryfix.github.io" 
-github_username:  queryfix
+url: "https://cudbg.github.io/lab" 
+github_username:  cudbg
 
 # Build settings
 markdown: kramdown
-theme: minima
 exclude:
   - Gemfile
   - Gemfile.lock

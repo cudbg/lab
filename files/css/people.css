@@ -7,15 +7,15 @@
 }
 .people span.person {
   float: left;
-  width: 150px;
+  width: 125px;
   margin: 5px;
   margin-left: 0px;
   margin-right: 10px;
   position: relative;
 }
 .people .img {
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   display: inline;
   background-size: cover;
 }
