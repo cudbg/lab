@@ -32,6 +32,14 @@
   authors: Ziyun Wei, Haneen Mohammed, Ravi Netravali, Eugene Wu
   conf: Anticipated 2019
   future: true
+- title: 'Towards Democratizing Relational Data Visualization'
+  url: https://www.dropbox.com/s/rrl5wavo6xuw7nc/tutorial-vis-sigmod19.pdf?dl=0
+  authors: Nan Tang, Eugene Wu, Guoliang Li
+  selected: true
+  conf: SIGMOD 2019 Tutorial
+  tags:
+    - vis
+    - db
 - title: 'Precision Interfaces'
   authors: Qianrui Zhang, Haoci Zhang, Viraj Rai, Thibault Sellam, Eugene Wu
   conf: SIGMOD 2019
