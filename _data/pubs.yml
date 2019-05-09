@@ -32,6 +32,15 @@
   authors: Ziyun Wei, Haneen Mohammed, Ravi Netravali, Eugene Wu
   conf: Anticipated 2019
   future: true
+- title: 'AlphaClean: Automatic Generation of Data Cleaning Pipelines'
+  url: https://arxiv.org/abs/1904.11827
+  authors: Sanjay Krishnan, Eugene Wu
+  selected: true
+  conf: ArXiv
+  tags:
+    - clean
+    - db
+    - ml
 - title: 'Towards Democratizing Relational Data Visualization'
   url: https://www.dropbox.com/s/rrl5wavo6xuw7nc/tutorial-vis-sigmod19.pdf?dl=0
   authors: Nan Tang, Eugene Wu, Guoliang Li
