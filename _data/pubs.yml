@@ -70,15 +70,15 @@
   url: https://www.dropbox.com/s/n3u1zb23m2q1xjs/popfactor-chilatebreaking19.pdf?dl=0
   tags:
     - crowd
-- title: 'You and Your Organization'
-  authors: Eugene Wu
-  conf: 'Technical Report (working note)'
-  url: https://www.dropbox.com/s/wgpijmn2veabjd3/management-v1.pdf?dl=0
-  selected: true
-  misc: true
-  short: true
-  tags:
-    - db
+# - title: 'You and Your Organization'
+#   authors: Eugene Wu
+#   conf: 'Technical Report (working note)'
+#   url: https://www.dropbox.com/s/wgpijmn2veabjd3/management-v1.pdf?dl=0
+#   selected: true
+#   misc: true
+#   short: true
+#   tags:
+#     - db
 - authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Michelle Yang, Carl Vondrick, Eugene Wu
   title: 'DeepBase: Deep Inspection of Neural Networks'
   url: https://www.dropbox.com/s/7yk2gr1qifvgakk/dnn-sigmod19-cr.pdf?dl=0
