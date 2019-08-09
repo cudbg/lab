@@ -1,15 +1,19 @@
 #
 # Add an item for yourself in this list, or replace one of the Eugene Wus
-# The image file should be 
-#   * square, 
-#   * at least 200x200px and 
+# The image file should be
+#   * square,
+#   * at least 200x200px and
 #   * placed in /files/images/people/
 #
 current:
   - img: eugenewu.png
-    name: Eugene Wu 
+    name: Eugene Wu
     role: PI
     url: http://www.eugenewu.net
+  - img: zach.png
+    name: Zachary Huang
+    role: Grad Student
+    url: http://www.columbia.edu/~zh2408/
   - img: haneen.jpg
     name: Haneen Mohammed
     role: Grad Student
@@ -17,11 +21,11 @@ current:
   - name: Yiliang Shi
     url: http://yiliangs.com/
     img: yiliangs.jpg
-    role: Grad Student   
+    role: Grad Student
   - name: Yiru Chen
     url: https://www.cs.columbia.edu/~chen1ru/
     img: yiru.jpg
-    role: Grad Student  
+    role: Grad Student
   - name: Yifan Wu
     url: http://www.cs.berkeley.edu/~yifanwu/
     img: yifan.jpg
@@ -51,9 +55,9 @@ current:
     name: Amita Shukla
     role: Undergrad
   - name: Bill Sun
-    url: http://www.columbia.edu/~ys3199/  
-    img: billsun.jpg 
-    role: Intern 
+    url: http://www.columbia.edu/~ys3199/
+    img: billsun.jpg
+    role: Intern
 alum:
   - img: psfotis.jpg
     name: Fotis Psallidas
