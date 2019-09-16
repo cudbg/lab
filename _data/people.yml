@@ -58,6 +58,9 @@ current:
     url: http://www.columbia.edu/~ys3199/
     img: billsun.jpg
     role: Intern
+  - name: Jake Fisher
+    img: jakefisher.jpg
+    role: Undergrad
 alum:
   - img: psfotis.jpg
     name: Fotis Psallidas
