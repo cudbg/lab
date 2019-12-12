@@ -18,10 +18,6 @@ current:
     name: Haneen Mohammed
     role: Grad Student
     url: http://haneensa.github.io/
-  - name: Yiliang Shi
-    url: http://yiliangs.com/
-    img: yiliangs.jpg
-    role: Grad Student
   - name: Yiru Chen
     url: https://www.cs.columbia.edu/~chen1ru/
     img: yiru.jpg
@@ -30,30 +26,16 @@ current:
     url: http://www.cs.berkeley.edu/~yifanwu/
     img: yifan.jpg
     role: Collab (Cal)
-  - name: Sanjay Krishnan
-    url: http://sanjayk.io/
-    img: sanjay.jpg
-    role: Collab (UChicago)
   - name: Young Wu
     url: http://wooya.me/
     img: youngwu.png
     role: Collab (SFU)
-  - img: robbie.jpg
-    name: Robbie Netzorg
-    role: Undergrad
-  - img: hamed.png
-    name: Hamed Nilforoshan
-    role: Undergrad
-    url: http://hamedn.com/
   - img: lauren.jpg
     name: Lauren Arnett
     role: Undergrad
-  - img: conder.jpg
-    name: Conder Shou
-    role: Undergrad
-  - img: amita.jpeg
-    name: Amita Shukla
-    role: Undergrad
+  - img: qianrui.jpg
+    name: Qianrui Zhang
+    role: Intern
   - name: Bill Sun
     url: http://www.columbia.edu/~ys3199/
     img: billsun.jpg
@@ -70,13 +52,23 @@ alum:
     name: Thibault Sellam
     role: Postdoc
     url: http://sellam.me/
+  - img: robbie.jpg
+    name: Robbie Netzorg
+    role: Undergrad
+  - img: hamed.png
+    name: Hamed Nilforoshan
+    role: Undergrad
+    url: http://hamedn.com/
+  - img: conder.jpg
+    name: Conder Shou
+    role: Undergrad
+  - img: amita.jpeg
+    name: Amita Shukla
+    role: Undergrad
   - name: HaoCi Zhang
     img: haoci.jpg
     url: http://www.zhanghaoci.com/
     role: Masters
-  - img: qianrui.jpg
-    name: Qianrui Zhang
-    role: Intern
   - img: kevin.jpg
     name: Kevin Lin
     role: Undergrad (now @AI2)
