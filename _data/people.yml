@@ -30,6 +30,9 @@ current:
     url: http://wooya.me/
     img: youngwu.png
     role: Collab (SFU)
+  - name: Lana Ramjit
+    img: lana.jpg
+    role: Collab (UCLA)
   - img: lauren.jpg
     name: Lauren Arnett
     role: Undergrad
