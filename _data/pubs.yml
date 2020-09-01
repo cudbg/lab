@@ -13,6 +13,7 @@
 #   code: URL to code/github
 #   comments: any comments
 #   selected: true
+#   short: true
 #
 # Main tags are
 #
@@ -20,23 +21,72 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
-- title: 'Acorn: Aggressive Result Caching in Spark SQL'
-  authors: Alana Ramjit, Matteo Interlandi, Eugene Wu, Ravi Netravali
-  conf: In Review 2019
-  future: true
 - title: 'Noob Saibot: Physiological Instrumentation for Database Engines'
   authors: Fotis Psallidas, Eugene Wu
   conf: Anticipated 2019
   future: true
-- title: 'Khameleon: Aggressive Prefetching for Approximation-Tolerant Cloud Visualizations'
-  authors: Ziyun Wei, Haneen Mohammed, Ravi Netravali, Eugene Wu
-  conf: Anticipated 2019
-  future: true
+- title: 'Facilitating Exploration with Interaction Snapshots under High Latency'
+  authors: Yifan Wu, Remco Chang, Joe Hellerstein, Eugene Wu
+  conf: InfoVIS (short paper) 2020
+  short: true
+  selected: true
+  tags:
+    - db
+    - vis
+- title: 'Continuous Prefetch for Interactive Data Applications'
+  authors: Haneen Mohammed, Ziyun Wei, Ravi Netravali, Eugene Wu
+  conf: VLDB 2020
+  selected: true
+  url: https://arxiv.org/pdf/2007.07858.pdf
+  tags:
+    - db
+    - vis
+- title: 'Complaint-driven Training Data Debugging for Query 2.0'
+  authors: Young Wu, Lampros Flokas, Jiannan Wang, Eugene Wu
+  conf: SIGMOD 2020
+  url: https://arxiv.org/pdf/2004.05722.pdf
+  selected: true
+  tags:
+    - ml
+    - mlexplain
+- title: 'Physical Visualization Design'
+  authors: Lana Ramjit, Zhaoning Kong, Ravi Netravali, Eugene Wu
+  conf: SIGMOD (demo) 2020
+  short: true
+  selected: true
+  url: https://www.dropbox.com/s/i6dngaqr1xyo9fg/pvd-sigmod20demo-cr.pdf?dl=0
+  tags:
+    - vis
+    - db
+- title: 'Towards Complaint-driven ML Workflow Debugging'
+  authors: Lampros Flokas, Young Wu, Jiannan Wang, Eugene Wu
+  conf: MLOps 2020
+  url: https://www.dropbox.com/s/yxip1pd6rnxj8ev/mlexplain-mlops20-submitted.pdf?dl=0
+  selected: true
+  short: true
+  tags:
+    - ml
+    - mlexplain
+    - clean
+    - pi
+- title: 'Monte Carlo Tree Search for Generating Interactive Data Analysis Interfaces'
+  authors: Yiru Chen, Eugene Wu
+  conf: Intelligent Process Automation (IPA) 2020
+  url: https://arxiv.org/abs/2001.01902
+  selected: true
+  tags:
+    - vis
+    - db
+    - pi
+- title: 'Acorn: Aggressive Result Caching in Spark SQL'
+  authors: Alana Ramjit, Matteo Interlandi, Eugene Wu, Ravi Netravali
+  conf: SOCC 2019
+  url: https://www.dropbox.com/s/dfq6w7mmlhiclzu/acorn-socc19-cr.pdf?dl=0
 - title: 'AlphaClean: Automatic Generation of Data Cleaning Pipelines'
   url: https://arxiv.org/abs/1904.11827
   authors: Sanjay Krishnan, Eugene Wu
   selected: true
-  conf: ArXiv
+  conf: ArXiv 2019
   tags:
     - clean
     - db
@@ -100,7 +150,6 @@
   authors: Eugene Wu
   url: https://www.dropbox.com/s/ui61nh0y3706sa5/cidr19abstract-v3.pdf?dl=0
   conf: CIDR 2019 Abstract
-  selected: true
   short: true
   tags:
     - ml
@@ -116,6 +165,7 @@
   title: 'At a Glance: Approximate Entropy as a Measure of Line Chart Visualization Complexity'
   conf: InfoVIS 2018
   selected: true
+  code: https://github.com/cudbg/pae
   url: https://www.dropbox.com/s/9jipqhq1yqgn5yt/glance-infovis18-camera.pdf?dl=0
   tags:
     - vis
