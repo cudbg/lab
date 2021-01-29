@@ -10,6 +10,10 @@ current:
     name: Eugene Wu
     role: PI
     url: http://www.eugenewu.net
+  - img: lampros.jpg
+    name: Lampros Flokas
+    role: Grad Student
+    url: https://dblp.org/pid/185/0725.html
   - img: zach.png
     name: Zachary Huang
     role: Grad Student
