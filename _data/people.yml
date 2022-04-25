@@ -26,27 +26,10 @@ current:
     url: https://www.cs.columbia.edu/~chen1ru/
     img: yiru.jpg
     role: Grad Student
-  - name: Yifan Wu
-    url: http://www.cs.berkeley.edu/~yifanwu/
-    img: yifan.jpg
-    role: Collab (Cal)
   - name: Young Wu
     url: http://wooya.me/
     img: youngwu.png
     role: Collab (SFU)
-  - name: Lana Ramjit
-    img: lana.jpg
-    role: Collab (UCLA)
-  - img: lauren.jpg
-    name: Lauren Arnett
-    role: Undergrad
-  - img: qianrui.jpg
-    name: Qianrui Zhang
-    role: Intern
-  - name: Bill Sun
-    url: http://www.columbia.edu/~ys3199/
-    img: billsun.jpg
-    role: Intern
   - name: Jake Fisher
     img: jakefisher.jpg
     role: Undergrad
@@ -98,6 +81,23 @@ alum:
     img: dhaas.jpg
     role: Collab (Cal)
     alum: 1
+  - name: Yifan Wu
+    url: http://www.cs.berkeley.edu/~yifanwu/
+    img: yifan.jpg
+    role: Collab (Cal)
+  - name: Lana Ramjit
+    img: lana.jpg
+    role: Collab (UCLA)
+  - img: lauren.jpg
+    name: Lauren Arnett
+    role: Undergrad
+  - img: qianrui.jpg
+    name: Qianrui Zhang
+    role: Intern
+  - name: Bill Sun
+    url: http://www.columbia.edu/~ys3199/
+    img: billsun.jpg
+    role: Intern
   - name: Lilong Jiang
     url: http://web.cse.ohio-state.edu/~jianglil/
     role: Collab (OSU)
