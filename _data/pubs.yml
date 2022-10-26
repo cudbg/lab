@@ -14,6 +14,9 @@
 #   comments: any comments
 #   selected: true
 #   short: true
+#   key: bibtex key
+#   citations: 
+#   rate: acceptance rate of conference
 #
 # Main tags are
 #
@@ -21,45 +24,196 @@
 #
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag 
 #
-- title: 'From Cleaning Before ML to Cleaning For ML'
-  authors: Felix Neutatz, Binger Chen, Ziawasch Abedjan, Eugene Wu
+
+- title: 'NL2INTERFACE: Interactive Visualization Interface Generation from Natural Language Queries'
+  authors: Yiru Chen, Ryan Li, Austin Mac, Tianbao Xie, Tao Yu, Eugene Wu
+  short: true
+  conf:  VIS nlviz workshop 2022
+  url: https://arxiv.org/abs/2209.08834
+  tags: 
+    - vis
+- title: 'How Do Captions Affect Visualization Reading?'
+  authors: Shelly Cheng, Hazel Zhu, Eugene Wu
   future: true
-  conf: Invited, IEEE Data Engineering Bulletin 2021
-- title: 'Explaining SQL-ML Queries with Bayesian Optimization'
+  short: true
+  conf: VIS Viscomm 2022
+  url: https://arxiv.org/abs/2205.01263
+  tags:
+    - vis
+- title: 'Extending the View Composition Algebra to Hierarchical Data'
+  authors: Eugene Wu
   future: true
-  authors: Brandon Lockhard, Jiannan Wang, Eugene Wu
-  conf: VLDB 2021
-- title: 'Physical Visualization Design'
+  conf: arXiV 2022
+  short: true
+  url: https://arxiv.org/abs/2205.01283
+  tags:
+    - vis
+- title: 'FaDE: Answering "Why?" Made Fast'
+  authors: Alexander Yao, Lampros Flokas, Eugene Wu
   future: true
-  authors: Lana Ramjit, Subrata Mitra, Ravi Netravali, Eugene Wu
-  conf: VLDB 2021
-- title: 'Reptile: Population-level Explanations for Hierarchical Data'
+  conf: In Review 2023
+  tags:
+    - db
+    - dbexplain
+- title: 'Kitana: A Data-as-a-Service Platform'
+  authors: Zachary Huang, Pranav Subramaniam, Raul Fernandez, Eugene Wu
   future: true
+  conf: In Review 2023
+  tags:
+    - db
+    - ml
+- title: 'Calibration: A Simple Trick for Fast Interactive Join Analytics'
   authors: Zachary Huang, Eugene Wu
-  conf: VLDB 2021
-- title: 'Interactive Visualization Generation From Queries'
-  authors: Yiru Chen, Eugene Wu
   future: true
-  conf: VLDB 2021
-- title: 'ActiveDeeper: A Model-based Active Data Enrichment system'
-  authors: Liang Zhao, Qingcan Li, Pei Wang, Jiannan Wang, Eugene Wu
-  conf: VLDB (demo) 2020
+  conf: arXiV 2022
+  url: https://arxiv.org/abs/2210.03851
+  tags:
+    - db
+    - ml
+- title: 'A Grammar for Hypothesis-Driven Visual Analysis'
+  authors: Ashley Suh, Yilan Jiang, Ab Mosca, Eugene Wu, Remco Chang
+  url: https://arxiv.org/abs/2204.14267
+  future: true
+  conf: In Review 2023
+  selected: true
+  tags:
+    - vis
+
+
+
+
+- title: 'A Sensorless Drone-based System for Mapping Indoor 3D Airflow Gradients'
+  authors: Yanchen Liu, Minghui Zhao, Stephen Xia, Eugene Wu, Xiaofan Jiang
+  future: true
+  short: true
+  conf: MobiSys 2022 Demo
+  url: https://dl.acm.org/doi/pdf/10.1145/3498361.3538671
+  tags:
+    - misc
+- title: 'ConnectorX: Accelerating Data Loading From Databases to Dataframes'
+  authors: Xiaoying Wang, Weiyuan Wu, Jinze Wu, Yizhou Chen, Nick Zrymiak, Changbo Qu, Lampros Flokas, George Chow, Jiannan Wang, Tianzheng Wang, Eugene Wu, Qingqing Zhou
+  conf: In Revision 2023
+  future: true
+  tags:
+    - db
+- title: 'How I Stopped Worrying About Training Data Bugs and Started Complaining'
+  authors: Lampros Flokas, Weiuan Wu, Jiannan Wang, Nakul Verma, Eugene Wu
+  conf: DEEM Workshop 2022 
+  url: https://www.dropbox.com/s/7lhpmkhifxrlt4m/rainvision-deem22-camera.pdf?dl=0
+  tags:
+    - db
+    - ml
+    - mlexplain
+- title: 'Interactive Interface Generation in Notebooks'
+  authors: Jeffrey Tao, Yiru Chen, Eugene Wu
+  url: https://www.dropbox.com/s/s1p1byz7tlquj5v/pi2-sigmod22demo-camera.pdf?dl=0
+  conf: SIGMOD 2022 demo 
+  tags:
+    - vis
+- title: 'PI2: Generating Visual Analysis Interfaces From Queries'
+  authors: Yiru Chen, Eugene Wu
+  selected: true
+  url: https://www.dropbox.com/s/bfs2qclp9slwfvi/pi-sigmod22-camera.pdf?dl=0
+  conf: SIGMOD 2022 
+  tags:
+    - vis
+    - db
+- title: 'View Composition Algebra for Ad Hoc Comparisons'
+  authors: Eugene Wu
+  conf: TVCG 2022 
+  selected: true
+  url: https://arxiv.org/abs/2202.07836
+  tags:
+    - vis
+- title: 'Reptile: Aggregation-level Explanations for Hierarchical Data'
+  authors: Zachary Huang, Eugene Wu
+  conf: SIGMOD 2022 
+  url: https://arxiv.org/abs/2103.07037
+  tags:
+    - dbexplain
+- title: 'A Neural Network Solves and Generates Mathematics Problems by Program Synthesis: Calculus, Differential Equations, Linear Algebra, and More'
+  authors: Iddo Drori, Sunny Tran, Roman Wang, Newman Cheng, Kevin Liu, Leonard Tang, Elizabeth Ke, Nikhil Singh, Taylor L. Patti, Jayson Lynch, Avi Shporer, Nakul Verma, Eugene Wu, Gilbert Strang
+  url: https://arxiv.org/abs/2112.15594
+  conf: PNAS 2022 (in review)
+  tags:
+    - ml
+- title: 'Complaint-Driven Training Data Debugging at Interactive Speeds'
+  authors: Lampros Flokas, Young Wu, Jiannan Wang, Nakul Verma, Eugene Wu
+  conf: SIGMOD 2022
+  url: https://www.dropbox.com/s/qrwcyy7ln91492k/rainpp-sigmod22-camera.pdf?dl=0
+  selected: true
+  tags:
+    - mlexplain
+    - dbexplain
+- title: 'Dynamic Breakpoints for Y-axis Scales'
+  authors: Jacob Fisher, Remco Chang, Eugene Wu
+  conf: InfoVIS  2021 (short paper)
+  url: https://www.dropbox.com/s/3oehfixhsg1ftk8/breakpoints-vis21short-camera-submitted.pdf?dl=0
   short: true
   tags:
+    - vis
+- title: 'Enabling SQL-based training data debugging for federated learning'
+  authors: Young Wu, Yejia Liu, Lampros Flokas, Jiannan Wang, Eugene Wu
+  url: https://arxiv.org/pdf/2108.11884.pdf
+  conf: VLDB 2022 
+  tags:
+    - mlexplain
+- title: 'Explaining SQL-ML Queries with Bayesian Optimization'
+  selected: true
+  url: https://arxiv.org/pdf/2102.05308.pdf
+  authors: Brandon Lockhard, Jiannan Wang, Eugene Wu
+  conf: VLDB 2021
+  tags:
+    - mlexplain
+- title: 'DIEL: Interactive Visualization Beyond the Here and Now'
+  authors: Yifan Wu, Remco Chang, Joseph Hellerstein, Arvind Satyanarayan, Eugene Wu
+  conf: VIS 2021 
+  url: https://arxiv.org/pdf/1907.00062.pdf
+  tags:
+    - vis
+- title: 'PopFactor: Live-Streamer Behavior and Popularity'
+  conf: ICWSM 2021
+  rate: approx 20
+  url: https://www.dropbox.com/s/1fommgp9lz1hwxz/popfactor-icwsm21-cr.pdf?dl=0
+  authors: Robert Netzorg, Lauren Arnett, Augustin Chaintreau, Eugene Wu
+  tags:
+    - crowd
+- title: 'Impact of Cognitive Biases on Progressive Visualization'
+  authors: Marianne Procopio, Ab Mosca, Carlos Scheidegger, Eugene Wu, Remco Chang
+  conf: TVCG 2021
+  rate: 24.6
+  url: https://www.dropbox.com/s/kzjotdoq9zpmuxf/marianne-bias-tvcg20-cr.pdf?dl=0
+  tags:
+    - vis
+- title: 'From Cleaning Before ML to Cleaning For ML'
+  authors: Felix Neutatz, Binger Chen, Ziawasch Abedjan, Eugene Wu
+  conf: Invited, IEEE Data Engineering Bulletin 2021 
+  url: http://sites.computer.org/debull/A21mar/p24.pdf
+  tags:
     - clean
+    - mlexplain
+    - dbexplain
+  selected: true
 - title: 'Facilitating Exploration with Interaction Snapshots under High Latency'
   authors: Yifan Wu, Remco Chang, Joe Hellerstein, Eugene Wu
   conf: InfoVIS (short paper) 2020
   short: true
   url: https://arxiv.org/pdf/1806.01499.pdf
-  selected: true
   tags:
     - db
     - vis
+- title: 'ActiveDeeper: A Model-based Active Data Enrichment system'
+  authors: Liang Zhao, Qingcan Li, Pei Wang, Jiannan Wang, Eugene Wu
+  conf: VLDB 2020 demo
+  short: true
+  url: https://www.dropbox.com/s/7a2vgemw6za9u4o/deeper-vldb20demo-cr.pdf?dl=0
+  tags:
+    - clean
 - title: 'Continuous Prefetch for Interactive Data Applications'
   authors: Haneen Mohammed, Ziyun Wei, Ravi Netravali, Eugene Wu
   conf: VLDB 2020
   selected: true
+  rate: 24.8
   url: https://arxiv.org/pdf/2007.07858.pdf
   video: https://www.youtube.com/watch?v=oiU5xytHMm4
   blog: https://medium.com/thewulab/for-responsive-interactive-apps-prediction-is-not-enough-3188bc7b53db
@@ -69,6 +223,7 @@
 - title: 'Complaint-driven Training Data Debugging for Query 2.0'
   authors: Young Wu, Lampros Flokas, Jiannan Wang, Eugene Wu
   conf: SIGMOD 2020
+  rate: 26.9
   url: https://arxiv.org/pdf/2004.05722.pdf
   selected: true
   video: https://www.youtube.com/watch?v=qvgBmM1LP38
@@ -80,7 +235,6 @@
   authors: Lana Ramjit, Zhaoning Kong, Ravi Netravali, Eugene Wu
   conf: SIGMOD (demo) 2020
   short: true
-  selected: true
   url: https://www.dropbox.com/s/i6dngaqr1xyo9fg/pvd-sigmod20demo-cr.pdf?dl=0
   tags:
     - vis
@@ -89,7 +243,6 @@
   authors: Lampros Flokas, Young Wu, Jiannan Wang, Eugene Wu
   conf: MLOps 2020
   url: https://www.dropbox.com/s/yxip1pd6rnxj8ev/mlexplain-mlops20-submitted.pdf?dl=0
-  selected: true
   short: true
   tags:
     - ml
@@ -108,12 +261,17 @@
 - title: 'Acorn: Aggressive Result Caching in Spark SQL'
   authors: Lana Ramjit, Matteo Interlandi, Eugene Wu, Ravi Netravali
   conf: SOCC 2019
+  rate: 25
   url: https://www.dropbox.com/s/dfq6w7mmlhiclzu/acorn-socc19-cr.pdf?dl=0
+  tags:
+    - db
 - title: 'AlphaClean: Automatic Generation of Data Cleaning Pipelines'
+  citations: 12
   url: https://arxiv.org/abs/1904.11827
   authors: Sanjay Krishnan, Eugene Wu
   selected: true
   conf: ArXiv 2019
+  short: true
   tags:
     - clean
     - db
@@ -129,6 +287,7 @@
 - title: 'Precision Interfaces'
   authors: Qianrui Zhang, Haoci Zhang, Viraj Rai, Thibault Sellam, Eugene Wu
   conf: SIGMOD 2019
+  rate: 20
   url: https://arxiv.org/abs/1904.02344
   selected: true
   tags:
@@ -137,6 +296,7 @@
 - title: 'Progressive Deep Web Crawling Through Keyword Queries For Data Enrichment'
   authors: Pei Wang, Jiannan Wang, Ryan Shea, Eugene Wu
   conf: SIGMOD 2019
+  rate: 20
   url: #
   tags:
     - crowd
@@ -158,9 +318,11 @@
 #     - db
 - authors: Thibault Sellam, Kevin Lin, Ian Yiran Huang, Michelle Yang, Carl Vondrick, Eugene Wu
   title: 'DeepBase: Deep Inspection of Neural Networks'
+  citations: 11
   url: https://www.dropbox.com/s/7yk2gr1qifvgakk/dnn-sigmod19-cr.pdf?dl=0
   selected: true
   conf: SIGMOD 2019
+  rate: 20
   tags:
     - ml
     - mlexplain
@@ -168,7 +330,6 @@
   authors: Yiru Chen, Yiliang Shi, Boyuan Chen, Thibault Sellam, Carl Vondrick, Eugene Wu
   url: https://www.dropbox.com/s/abth7ko579cf9mu/dnn-nips19learnsys-cr.pdf?dl=0
   conf: LearnSys 2018 Workshop at NIPS
-  selected: true
   short: true
   tags:
     - ml
@@ -183,6 +344,7 @@
     - db
 - title: 'Ten Years of Web Tables'
   authors: Michael Cafarella, Alon Halevy, Daisy Zhe Wang, Hongrae Lee, Jayant Madhavan, Cong Yu, Eugene Wu
+  citations: 32
   url: https://www.dropbox.com/s/y3xlfstgoq8a221/webtables-vldb18.pdf?dl=0,
   conf: PVLDB 2018 Invited Paper,
   selected: true
@@ -190,8 +352,9 @@
     - db
 - authors: Gabriel Ryan, Abigail Mosca, Remco Chang, Eugene Wu
   title: 'At a Glance: Approximate Entropy as a Measure of Line Chart Visualization Complexity'
+  citations: 13
   conf: InfoVIS 2018
-  selected: true
+  rate: 25.13
   code: https://github.com/cudbg/pae
   url: https://www.dropbox.com/s/9jipqhq1yqgn5yt/glance-infovis18-camera.pdf?dl=0
   tags:
@@ -210,6 +373,7 @@
   conf: ICWSM 2018
   url: https://www.dropbox.com/s/38cb4rz7vl2ni9g/dialectic-icwsm18-cr.pdf?dl=0
   selected: true
+  rate: 20
   tags:
   - mlexplain
   - crowd
@@ -218,7 +382,6 @@
   conf: SIGMOD (demo) 2018
   short: true
   url: https://www.dropbox.com/s/0hqjy6ha0antw7u/precisoninterface-sigmod2018demo-cr.pdf?dl=0
-  selected: true
   tags:
     - vis
     - pi
@@ -241,21 +404,22 @@
   title: '"I Like the Way You Think!" Inspecting the Internal Logic of Recurrent Neural Networks'
   conf: SysML 2018
   url: https://www.dropbox.com/s/7r8abwnpcmg1k1k/dnn-sysml18.pdf?dl=0
-  selected: true
   tags:
   - ml
   - mlexplain
-- authors: Eugene Wu
-  title: 'A "Probabilistic" Model of Research'
-  conf: Blog Post 2018
-  short: true
-  url: http://researchsetup.github.io/researchmodel
-  selected: true
-  tags:
-  - db
+#- authors: Eugene Wu
+#  title: 'A "Probabilistic" Model of Research'
+#  conf: Blog Post 2018
+#  short: true
+#  url: http://researchsetup.github.io/researchmodel
+#  selected: true
+#  tags:
+#  - db
 - authors: Fotis Psallidas, Eugene Wu
   title: 'Smoke: Fine-grained Lineage at Interactive Speeds'
+  citations: 43
   conf: VLDB 2018
+  rate: 21
   url: https://arxiv.org/abs/1801.07237
   selected: true
   tags:
@@ -266,12 +430,12 @@
   conf: Tech Report 2017
   url: https://arxiv.org/abs/1712.00078
   short: true
-  selected: true
   tags:
   - vis
   - pi
 - authors: Sanjay Krishnan, Michael J. Franklin, Ken Goldberg, Eugene Wu
   title: 'BoostClean: Automated Error Detection and Repair for Machine Learning'
+  citations: 36
   conf: Tech Report 2017
   short: true
   url: https://arxiv.org/abs/1711.01299
@@ -317,11 +481,11 @@
   url: https://www.dropbox.com/s/x8g0zljv7bmfpuo/palm-hilda17.pdf?dl=0
   short: true
   conf: HILDA 2017
-  selected: true
   tags:
   - ml
   - mlexplain
   title: 'PALM: Machine Learning Explanations For Iterative Debugging'
+  citations: 42
 - authors: Hamed Nilforoshan, James Sands, Kevin Lin, Rahul Khanna, Eugene Wu
   conf: Collective Intelligence 2017
   short: true
@@ -340,9 +504,11 @@
   short: true
 - authors: Liwen Sun, Michael J. Franklin, Jiannan Wang, Eugene Wu
   conf: VLDB 2017
+  rate: 18.6
   tags:
   - db
   title: Skipping-oriented Partitioning for Columnar Layouts
+  citations: 26
   url: https://www.dropbox.com/s/zsxuq955s466o70/skipping-vldb2017.pdf?dl=0
 - authors: Eugene Wu, Fotis Psallidas, Zhengjie Miao, Haoci Zhang, Laura Rettig, Yifan
     Wu, Thibault Sellam
@@ -351,6 +517,7 @@
   tags:
   - vis
   title: Combining Design and Performance in a Data Visualization Management System
+  citations: 26
   url: https://www.dropbox.com/s/0rdjsv7m7wbhmlk/cidr17-camera.pdf?dl=0
 - authors: Eugene Wu
   conf: CIDR 2017 Abstract
@@ -365,32 +532,34 @@
   tags:
   - dbexplain
   title: 'QFix: Diagnosing errors through query histories'
+  citations: 25
   url: http://sirrice.github.io/files/papers/qfix-sigmod17.pdf
 - authors: Yifan Wu, Joe Hellerstein, Eugene Wu
-  conf: Hilda 2016
+  conf: HILDA 2016
   short: true
   tags:
   - vis
   title: A DeVIL-ish Approach to Inconsistency in Interactive Visualizations
-  selected: true
   url: http://sirrice.github.io/files/papers/devil-hilda16.pdf
 - authors: Daniel Alabi, Eugene Wu
-  conf: Hilda 2016
+  conf: HILDA 2016
   short: true
   selected: true
   tags:
   - vis
   title: 'PFunk-H: Approximate Query Processing using Perceptual Models'
+  citations: 21
   url: http://sirrice.github.io/files/papers/pfunk-hilda16.pdf
 - authors: Sanjay Krishnan, Daniel Haas, Michael J. Franklin, Eugene Wu
-  conf: Hilda 2016
+  conf: HILDA 2016
   short: true
   tags:
   - clean
   title: 'Towards Reliable Interactive Data Cleaning: A User Survey and Recommendations'
+  citations: 47
   url: http://sirrice.github.io/files/papers/cleaning-hilda16.pdf
 - authors: Niranjan Kamat, Eugene Wu, Arnab Nandi
-  conf: Hilda 2016
+  conf: HILDA 2016
   short: true
   tags:
   - vis
@@ -403,6 +572,7 @@
   tags:
   - clean
   title: 'ActiveClean: An Interactive Data Cleaning Framework For Modern Machine Learning'
+  citations: 119
   url: http://eugenewu.net/files/papers/activeclean-sigmod16demo.pdf
 - authors: Eugene Wu, Lilong Jiang, Larry Xu, Arnab Nandi
   short: true
@@ -410,6 +580,7 @@
   tags:
   - vis
   title: Graphical Perception in Animated Bar Charts
+  citations: 12
   url: http://arxiv.org/pdf/1604.00080v1
 - authors: Xiaolan Wang, Alexandra Meliou, Eugene Wu
   conf: SIGMOD 2016 Demo
@@ -436,49 +607,55 @@
 - authors: Eugene Wu, Arnab Nandi
   conf: DSIA 2015
   short: true
-  selected: true
   slides: http://www.eugenewu.net/files/talks/perceptvis_dsia2015.pdf
   tags:
   - vis
   title: Towards Perception-aware Interactive Data Visualization Systems
+  citations: 14
   url: http://perceptvis.github.io/wu_nandi_dsia15.pdf
 - authors: Sanjay Krishnan, Jiannan Wang, Michael J Franklin, Ken Goldberg, Tim Kraska,
     Tova Milo, Eugene Wu
   tags:
   - clean
   title: 'SampleClean: Fast and Reliable Analytics on Dirty Data (overview paper)'
+  citations: 34
   conf: IEEE Data Eng. Bulletin 2015
   short: true
   url: http://sirrice.github.io/files/papers/sampleclean-overview.pdf
 - authors: Daniel Haas, Jiannan Wang, Eugene Wu, Michael J. Franklin
   conf: VLDB 2016
+  rate: 35.5
   tags:
   - crowd
   title: 'CLAMShell: Speeding up Crowds for Low-latency Data Labeling'
   url: http://arxiv.org/pdf/1509.05969.pdf
+  citations: 65
 - authors: Arka A. Bhattacharya, Dezhi Hong, David Culler, Jorge Ortiz, Kamin Whitehouse,
     Eugene Wu
   conf: BuildSys 2015
   tags:
   - misc
   title: Automated Metadata Construction to Support Portable Building Applications
+  citations: 64
   url: http://sirrice.github.io/files/papers/arka-buildsys2015.pdf
 - authors: Daniel Haas, Sanjay Krishnan, Jiannan Wang, Michael J. Franklin, Eugene
     Wu
-  conf: VLDB 2015
+  conf: VLDB 2015 demo
   short: true
   tags:
   - crowd
-  title: 'Wisteria: Nurturing Scalable Data Cleaning Infrastructure (Demo)'
+  title: 'Wisteria: Nurturing Scalable Data Cleaning Infrastructure'
+  citations: 39
   url: http://sirrice.github.io/files/papers/wisteria.pdf
 - authors: Anant Bhardwaj, Amol Deshpande, Aaron Elmore, David Karger, Sam Madden,
     Aditya Parameswaran, Harihar Subramanyam, Eugene Wu, Rebecca Zhang
-  conf: VLDB 2015
+  conf: VLDB 2015 demo
   short: true
   tags:
   - misc
-  title: Collaborative Data Analytics with Datahub (Demo)
+  title: Collaborative Data Analytics with Datahub 
   url: http://sirrice.github.io/files/papers/datahubdemo.pdf
+  citations: 54
 - authors: Leilani Battle, Edward Benson, Aditya Parameswaran, Eugene Wu
   conf: Technical Report 2016
   short: true
@@ -499,7 +676,14 @@
   tags:
   - vis
   title: The Case for Data Visualization Management Systems
+  citations: 85
   url: http://sirrice.github.io/files/papers/ermac-vldb14.pdf
+- authors: Alekh Jindal, Praynaa Rawlani, Eugene Wu, Samuel Madden, Amol Deshpande, Mike Stonebraker
+  title: "Vertexica: Your Relational Friend for Graph Analytics!"
+  tags:
+    - db
+  conf: SIGMOD 2014 demo
+  citations: 63
 - authors: Eugene Wu, Adam Marcus, Sam Madden
   conf: DBCrowd 2013
   tags:
@@ -517,6 +701,8 @@
   conf: VLDB 2013 (Best-of)
   selected: true
   slides: http://sirrice.github.io/files/talks/scorpion_vldb13.pdf
+  rate: 22.7
+  citations: 211
   tags:
   - dbexplain
   - vis
@@ -530,6 +716,7 @@
   - vis
   title: 'SubZero: a Fine-Grained Lineage System for Scientific Databases'
   url: http://sirrice.github.io/files/papers/subzero-icde13.pdf
+  citations: 43
 - authors: Eugene Wu, Samuel Madden, Michael Stonebraker
   conf: VLDB 2012
   short: true
@@ -541,32 +728,36 @@
 - authors: Adam Marcus, Eugene Wu, David Karger, Samuel Madden, Robert Miller
   conf: VLDB 2012
   selected: true
+  rate: 20.3
   tags:
   - crowd
   title: Human-powered Sorts and Joins
+  citations: 334
   url: http://sirrice.github.io/files/papers/qurk-vldb2012.pdf
 - authors: Eugene Wu, Sam Madden
   conf: ICDE 2011
+  rate: 20
   tags:
   - db
   title: Partitioning Techniques for Fine-Grained Indexing
+  citations: 39
   url: http://sirrice.github.io/files/papers/shinobi-icde11.pdf
 - authors: Adam Marcus, Eugene Wu, David Karger, Samuel Madden, Robert Miller
   conf: SIGMOD 2011
   tags:
   - crowd
   title: 'Demonstration of Qurk: A Query Processor for Human Operators'
+  citations: 51
   url: http://sirrice.github.io/files/papers/qurk-sigmod2011.pdf
 - authors: Eugene Wu, Carlo Curino, Sam Madden
   conf: CIDR 2011
-  selected: true
   tags:
   - db
   title: No Bits Left Behind
   url: http://sirrice.github.io/files/papers/bits-cidr11.pdf
 - authors: Adam Marcus, Eugene Wu, Sam Madden, Robert Miller
   conf: CIDR 2011
-  selected: true
+  citations: 248
   tags:
   - crowd
   title: 'Crowdsourced Databases: Query Processing with People'
@@ -575,6 +766,7 @@
     Madden, Hari Balakrishnan, Nickolai Zeldovich
   conf: CIDR 2011
   selected: true
+  citations: 484
   tags:
   - db
   title: 'Relational Cloud: A Database-as-a-Service for the Cloud'
@@ -588,12 +780,13 @@
   url: http://sirrice.github.io/files/papers/caseforrelationalcloud.pdf
 - authors: Philippe Cudre-Mauroux, Eugene Wu, Sam Madden
   conf: ICDE 2010
+  citations: 214
   tags:
   - db
   title: 'TrajStore: An Adaptive Storage System for Very Large Trajectory Data Sets'
   url: http://sirrice.github.io/files/papers/trajstore-icde10.pdf
 - authors: Eugene Wu, Philippe Cudre-Mauroux, Sam Madden
-  conf: VLDB 2009
+  conf: VLDB 2009 demo
   tags:
   - db
   title: Demonstration of the TrajStore System
@@ -604,8 +797,11 @@
   tags:
   - db
   title: 'The Case for RodentStore: An Adaptive, Declarative Storage System'
+  citations: 32
   url: http://www-db.cs.wisc.edu/cidr/cidr2009/Paper_97.pdf
 - authors: Michael Cafarella, Alon Halevy, Daisy Wang, Eugene Wu, Yang Zhang
+  rate: 16.8
+  citations: 737
   conf: VLDB 2008
   tags:
   - db
@@ -619,6 +815,7 @@
   - db
   - web
   title: Uncovering the Relational Web
+  citations: 178
   url: http://sirrice.github.io/files/papers/relweb-webdb08.pdf
 - authors: Daniel Gyllstrom, Eugene Wu, Hee-Jin Chae, Yanlei Diao, Patrick Stahlberg,
     Gordon Anderson
@@ -626,10 +823,13 @@
   tags:
   - db
   title: 'SASE: Complex Event Processing over Streams (Demo)'
+  citations: 276
   short: true
   url: '#'
 - authors: Eugene Wu, Yanlei Diao, Shariq Rizvi
   conf: SIGMOD 2006
+  citations: 1138
+  rate: 13
   selected: true
   tags:
   - db
@@ -646,15 +846,17 @@
 - authors: Minos N. Garofalakis, Kurt P. Brown, Michael J. Franklin, Joseph M. Hellerstein,
     Daisy Zhe Wang, Eirinaios Michelakis, Liviu Tancau, Eugene Wu, Shawn R. Jeffery,
     Ryan Aipperspach
-  conf: IEEE Data Eng. Bull. 2006
+  conf: IEEE Data Eng. Bulletin 2006
   short: true
   tags:
   - db
   title: 'Probabilistic Data Management for Pervasive Computing: The Data Furnace Project'
+  citations: 41
   url: '#'
 - authors: Michael J. Franklin, Shawn R. Jeffery, Sailesh Krishnamurthy, Frederick
     Reiss, Shariq Rizvi, Eugene Wu, Owen Cooper, Anil Edakkunni, Wei Hong
   conf: CIDR 2005
+  citations: 268
   tags:
   - db
   title: 'Design Considerations for High Fan-In Systems: The HiFi Approach'
@@ -666,4 +868,5 @@
   tags:
   - db
   title: 'HiFi: A Unified Architecture for High Fan-in Systems'
+  citations: 39
   url: '#'
