@@ -1,3 +1,11 @@
+<!-- Redirect to eugenewu.net -->
+<meta http-equiv="refresh" content="0; url=https://eugenewu.net/" />
+
+If you are not redirected automatically, <a href="https://eugenewu.net/">click here</a>.
+
+
+
+<!--
 ---
 layout: index
 ---
@@ -15,3 +23,4 @@ Data analysis is never one-shot -- it is an iterative process where analysis res
 **Interactive Data Analysis System**
 The current interface for data analysis is predominantly code.   We are studying techniques to improve how to design, architect, and build scalable interactive visual analysis applications.   The [Data Visualization Management System](./dvms) makes it significantly easier to build and scale interactive data visualization systems.  [Precision Interfaces](./precisioninterface) extends this technology to automatically generate new visual exploration interfaces tailored to a long tail of data analysis tasks.
 
+-->
